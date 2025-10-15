@@ -81,12 +81,13 @@
                         </p>
                     <div class="row g-0 mb-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-3"><i class="fa fa-check magazine-main-text me-3"></i>High Expertise</h5>
-                            <h5 class="mb-3"><i class="fa fa-check magazine-main-text me-3"></i>Professional Staff</h5>
+                            <h5 class="mb-3"><i class="fa fa-check light-color me-3"></i>Skilled Professionals Staff</h5>
+                            <h5 class="mb-3"><i class="fa fa-check light-color me-3"></i>Expert Solutions</h5>
+                           
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-3"><i class="fa fa-check magazine-main-text me-3"></i>24/7 Service</h5>
-                            <h5 class="mb-3"><i class="fa fa-check magazine-main-text me-3"></i>Top-Class Facilities</h5>
+                            <h5 class="mb-3"><i class="fa fa-check light-color me-3"></i>Round-the-clock Support</h5>
+                            <h5 class="mb-3"><i class="fa fa-check light-color me-3"></i>State-of-the-Art Facilities</h5>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
@@ -95,7 +96,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Call to ask any question</h5>
-                            <h4 class="magazine-main-text mb-0">+233 (0)3220 89675</h4>
+                            <h4 class="light-color mb-0">@include('includes.in_telephone')</h4>
                         </div>
                     </div>
                     <!-- <a href="{{ url('/contact') }}" class="btn metro-fill text-white py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Get In Touch</a> -->
@@ -114,8 +115,8 @@
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold magazine-main-text text-uppercase">Our Core Values</h5>
-                <h1 class="mb-0">We are here to help our patients </h1>
+                <h5 class="fw-bold magazine-main-text text-uppercase">Our Guiding Principles</h5>
+                <h1 class="mb-0">We are here to serve our patients </h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4">
@@ -124,16 +125,15 @@
                             <div class="metro-fill rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-child text-white"></i>
                             </div>
-                            <h4>Confidentiality</h4>
-                            <p class="mb-0">We support patients in confidential and sensitive engagements. 
-                            As a health care provider, we have in place comprehensive policies and procedures to ensure that patients' confidentiality is protected.</p>
+                            <h4>Privacy & Trust</h4>
+                            <p class="mb-0">We protect every patient’s privacy with the highest level of discretion and professionalism. Your personal information and medical history are always handled with the utmost care and security.</p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
                             <div class="metro-fill rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-handshake text-white"></i>
                             </div>
-                            <h4>Excellence</h4>
-                            <p class="mb-0">We deliver excellence services; we have a team of experts that help our patients, no matter what the challenge may be. </p>
+                            <h4>Clinical Excellence</h4>
+                            <p class="mb-0">We are committed to delivering exceptional healthcare through continuous improvement, advanced medical practices, and a dedicated team of professionals focused on quality outcomes.</p>
                         </div>
                     </div>
                 </div>
@@ -148,16 +148,15 @@
                             <div class="metro-fill rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-heart text-white"></i>
                             </div>
-                            <h4>Empathy</h4>
-                            <p class="mb-0">Our patients' happiness is our happiness.
-                            Empathy drives every level of our work.  </p>
+                            <h4>Compassionate Care</h4>
+                            <p class="mb-0">We treat every patient with compassion, understanding, and kindness; recognizing the unique needs, emotions, and experiences of each individual.</p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
                             <div class="metro-fill rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-award text-white"></i>
                             </div>
-                            <h4>Respect</h4>
-                            <p class="mb-0">We treat every client with respect. We understand each other’s differences and our different roles.</p>
+                            <h4>Dignity & Respect</h4>
+                            <p class="mb-0">We value the dignity, rights, and beliefs of every patient and staff member, fostering a supportive and inclusive environment for all.</p>
                             
                         </div>
                     </div>

@@ -73,9 +73,9 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2"> Call us on</h5>
-                            <a><h6 class="magazine-main-text mb-1">+233 322190051</h6></a>
-                            <h6 class="magazine-main-text mb-0">+233 241413872</h6>
-                            <h6 class="magazine-main-text mb-0">+233 241413872</h6>
+                            <a><h6 class="light-color mb-1">+233 322190051</h6></a>
+                            <h6 class="light-color mb-0">@include('includes.in_telephone')</h6>
+                            <h6 class="light-color mb-0">+233 544363232</h6>
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Email</h5>
-                            <h6 class="magazine-main-text mb-1">mmagazineclinic@yahoo.com</h6>
+                            <h6 class="light-color mb-1">mmagazineclinic@yahoo.com</h6>
                             <!-- <h6 class="magazine-main-text mb-1">frontdesk@metrohealthgh.com</h6> -->
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                         </div>
                         <div class="ps-4">
                         <h5 class="mb-2">Kindly WhatsApp us on</h5>
-                            <a href="https://wa.me/+233241413872"><h6 class="magazine-main-text mb-1">+233 241413872</h6></a>
+                            <a href="https://wa.me/+233241413872"><h6 class="light-color mb-1">+233 241413872</h6></a>
                             <!-- <a href="https://wa.me/+233509760659"><h6 class="text-primary mb-0">+233 (0) 509760659</h6></a> -->
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Visit our Facility</h5>
-                            <h6 class="magazine-main-text mb-1">18 Valley View Cres. Ridge Residencial Area. Danyame, Kumasi.</h6>
+                            <h6 class="light-color mb-1">18 Valley View Cres. Ridge Residencial Area. Danyame, Kumasi.</h6>
                             <!-- <h6 class="magazine-main-text mb-1"></h6> -->
                         </div>
                     </div>

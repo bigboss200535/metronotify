@@ -38,7 +38,7 @@
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-telephone text-white me-2"></i>
-                               <a href="#"> <p class="mb-0 white-text">+233 (0)3220 89675</p></a>
+                               <a href="#"> <p class="mb-0 white-text">@include('includes.in_telephone')</p></a>
                             </div>
                             <div class="d-flex mt-4">
                                 <a class="btn metro-fill-gold btn-square me-2" href="#"><i class="fab fa-twitter text-white"></i></a>

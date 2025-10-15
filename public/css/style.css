@@ -10,9 +10,16 @@
     --metro-fill-gold: #589AFE; /*#ed1c24;*/
 }
 
+.heading-text-color {
+    color: var(--red-fill);
+}
 
 .metro-fill {
     background-color: var(--metro-fill) !important;
+}
+
+.metro-text-body {
+    color: var(--metro-fill) !important;
 }
 
 .magazine-fill {

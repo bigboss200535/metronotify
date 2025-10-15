@@ -113,7 +113,6 @@
     </div>
     <!-- Navbar & Carousel End -->
 
-
     <!-- Full Screen Search Start -->
     @include('includes.in_search') 
     <!-- Full Screen Search End -->
@@ -124,33 +123,33 @@
             <div class="row g-5">
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold magazine-main-text text-uppercase">WELCOME TO MAGAZINE CLINIC</h5>
+                        <h5 class="fw-bold metro-text-main text-uppercase heading-text-color">WELCOME TO MAGAZINE CLINIC</h5>
                         <h1 class="mb-0"></h1>
                     </div>
-                    <h1 class="mb-1">We care for you, with compassion and respect at every visit.</h1>
+                    <h1 class="mb-1" style="color: black;">We care for you, with compassion and respect at every visit.</h1>
                     <p class="mb-0"></p>
                     <div class="row g-0 mb-3">
                     <p class="mb-0"></p>
                     
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-3"><i class="fa fa-check magazine-main-text me-3"></i>High Expertise</h5>
-                            <h5 class="mb-3"><i class="fa fa-check magazine-main-text me-3"></i>Professional Staff</h5>
+                            <h5 class="mb-3"><i class="fa fa-check light-color me-3"></i>High Expertise</h5>
+                            <h5 class="mb-3"><i class="fa fa-check light-color me-3"></i>Professional Staff</h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-3"><i class="fa fa-check magazine-main-text me-3"></i>24/7 Service</h5>
-                            <h5 class="mb-3"><i class="fa fa-check magazine-main-text me-3"></i>Top-class facilities</h5>
+                            <h5 class="mb-3"><i class="fa fa-check light-color me-3"></i>24/7 Service</h5>
+                            <h5 class="mb-3"><i class="fa fa-check light-color me-3"></i>Top-class facilities</h5>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
-                        <div class="metro-fill d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                        <div class="metro-fill-gold d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Call to ask any question.</h5>
-                            <a href="#"><h4 class="magazine-main-text">+233 241413872</h4></a>
+                            <a href="#"><h4 class="light-color">@include('includes.in_telephone')</h4></a>
                         </div>
                     </div>
-                    <a href="{{ url('/contact') }}" class="btn metro-fill-gold  text-white py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Get in touch</a>
+                    <!-- <a href="{{ url('/contact') }}" class="btn metro-fill-gold  text-white py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Get in touch</a> -->
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
@@ -166,8 +165,8 @@
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold magazine-main-text text-uppercase"> Why choose Magazine Clinic?</h5>
-                <h1 class="mb-0">Our healthcare professionals are proud to offer these services everyday.</h1>
+                <h5 class="fw-bold text-uppercase heading-text-color"> Why choose Magazine Clinic?</h5>
+                <h1 class="mb-0" style="color: black">Our healthcare professionals are proud to offer these services everyday.</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -237,7 +236,7 @@
                     <div class="position-relative metro-fill rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
                         <h3 class="text-white mb-3">Call us for more information.</h3>
                         <p class="text-white mb-3">Feel free to reach us at these contacts:</p>
-                        <h3 class="text-white white-text">+233 (0)3220 89675</h3>
+                        <h3 class="text-white white-text">@include('includes.in_telephone')</h3>
                         <!-- <h3 class="text-white">+233 (0) 509760659</h3> -->
                         <!-- <h3 class="text-white mb-0">+233 (0) 208119125</h3>
                         <h3 class="text-white mb-0">+233 (0) 208904060</h3>
@@ -255,7 +254,7 @@
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase"></h5>
-                <h5 class="fw-bold magazine-main-text text-uppercase"> Our purpose, mission, and vision</h5>
+                <h5 class="fw-bold heading-text-color text-uppercase"> Our purpose, mission, and vision</h5>
                 <!-- <h1 class="mb-0 magazine-main-text">Our purpose, mission, and vision</h1> -->
             </div>
             <div class="row g-0">
@@ -314,14 +313,14 @@
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold magazine-main-text text-uppercase">Our Specialist Days</h5>
-                <h1 class="mb-0">We provide specialised cases so support our clients schedules</h1>
+                <h5 class="fw-bold heading-text-color text-uppercase">Our Specialist Days</h5>
+                <h1 class="mb-0" style="color: black">We provide specialised cases so support our clients schedules</h1>
             </div>
             <div class="row g-0">
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="bg-light rounded">
                         <div class="border-bottom py-4 px-5 mb-4">
-                            <h4 class="magazine-main mb-1">OBSTETRICS & GYNAE</h4>
+                            <h4 class="magazine-main-text mb-1" style="color: black;">OBSTETRICS & GYNAE</h4>
                             <small class="text-uppercase text-dark">MONDAYS</small>
                         </div>
                         <div class="p-5 pt-0">
@@ -337,7 +336,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="bg-white rounded shadow position-relative" style="z-index: 1;">
                         <div class="border-bottom py-4 px-5 mb-4">
-                            <h4 class="magazine-main-text mb-1"> EAR, NOSE AND THROAT</h4>
+                            <h4 class="magazine-main-text mb-1" style="color: black;"> EAR, NOSE AND THROAT</h4>
                             <small class="text-uppercase text-dark">WEDNESDAYS</small>
                         </div>
                         <div class="p-5 pt-0">
@@ -353,7 +352,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                     <div class="bg-light rounded">
                         <div class="border-bottom py-4 px-5 mb-4">
-                            <h4 class="magazine-main-text mb-1">ORTHOPEDICS CARE</h4>
+                            <h4 class="magazine-main-text mb-1" >ORTHOPEDICS CARE</h4>
                             <small class="text-uppercase text-dark">WEDNESDAYS</small>
                         </div>
                         <div class="p-5 pt-0">
@@ -378,15 +377,15 @@
             <div class="row g-5">
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold magazine-main-text text-uppercase">MAKE AN ENQUIRY</h5>
-                        <h1 class="mb-0">Need to make an enquiry? Please  contact us</h1>
+                        <h5 class="fw-bold heading-text-color text-uppercase">MAKE AN ENQUIRY</h5>
+                        <h1 class="mb-0" style="color: black">Need to make an enquiry? Please  contact us</h1>
                     </div>
                     <div class="row gx-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-4"><i class="fa fa-reply magazine-main-text me-3"></i>Reply within 24 hours</h5>
+                            <h5 class="mb-4"><i class="fa fa-reply light-color me-3"></i>Reply within 24 hours</h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-4 "><i class="fa fa-phone-alt magazine-main-text me-3"></i>24-hour telephone support</h5>
+                            <h5 class="mb-4 "><i class="fa fa-phone-alt light-color me-3"></i>24-hour telephone support</h5>
                         </div>
                     </div>
                     <p class="mb-4">We have fully-manned and equipped units that run 24 hours a day, 7 days a week.
@@ -395,12 +394,12 @@
                     <p class="mb-4">It is with much pleasure to open our doors in readiness to offer you quality,
                     efficient, effective, reliable, timely, safe and patient centred healthcare service.</p>
                     <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
-                        <div class="metro-fill d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                        <div class="metro-fill-gold d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Call to ask any question</h5>
-                            <h4 class="magazine-main-text">+233 241413872</h4>
+                            <h4 class="light-color">@include('includes.in_telephone')</h4>
                         </div>
                     </div>
                 </div>
