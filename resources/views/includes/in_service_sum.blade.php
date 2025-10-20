@@ -20,7 +20,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+               <!--  <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                     <div class="blog-item bg-light rounded overflow-hidden">
                         <div class="blog-img position-relative overflow-hidden">
                             <img class="img-fluid" src="{{ asset('img/blog-4.jpg') }}" alt="">
@@ -35,7 +35,7 @@
                             <a class="text-uppercase metro-main-text gold-text"  href="{{ url('/services/geriatric') }}">Read More <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="blog-item bg-light rounded overflow-hidden">
                         <div class="blog-img position-relative overflow-hidden">

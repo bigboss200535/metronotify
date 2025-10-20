@@ -123,7 +123,7 @@
             <div class="row g-5">
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold metro-text-main text-uppercase heading-text-color">WELCOME TO MAGAZINE CLINIC</h5>
+                        <h5 class="fw-bold metro-text-main text-uppercase heading-text-color">WELCOME TO @include('includes.in_facility')</h5>
                         <h1 class="mb-0"></h1>
                     </div>
                     <h1 class="mb-1" style="color: black;">We care for you, with compassion and respect at every visit.</h1>
@@ -165,8 +165,8 @@
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-uppercase heading-text-color"> Why choose Magazine Clinic?</h5>
-                <h1 class="mb-0" style="color: black">Our healthcare professionals are proud to offer these services everyday.</h1>
+                <h5 class="fw-bold text-uppercase heading-text-color"> Why choose @include('includes.in_facility')</h5>
+                <h1 class="mb-0" style="color: black">We are proud to offer these services everyday.</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -175,7 +175,7 @@
                             <i class="fa fa-clock text-white"></i>
                         </div>
                         <h4 class="mb-3">24/7 Services</h4>
-                        <p class="m-0">We serve you 24 hours a day throughout the week for the entire year.</p>
+                        <p class="m-0">Available 24 hours a day, 7 days a week, 365 days a year.</p>
                         <a class="btn btn-lg metro-fill text-white rounded" href="">
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -187,8 +187,7 @@
                             <i class="fas fa-stethoscope text-white"></i>
                         </div>
                         <h4 class="mb-3">Highly Experience Experts</h4>
-                        <p class="m-0">Our experts have managed to solve complex and 
-                        technical medical conditions at a surprisingly affordable service charge.</p>
+                        <p class="m-0">Our team has a proven track record of resolving complex medical issues with cost-effective care.</p>
                         <a class="btn btn-lg metro-fill text-white rounded" href="">
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -200,8 +199,7 @@
                             <i class="fas fa-medkit text-white"></i>
                         </div>
                         <h4 class="mb-3">Connected Care</h4>
-                        <p class="m-0">The refreshing welcome experienced at Magazine Clinic is a feature at every unit you visit,
-                        a credit to the built-up system by our professionals.</p>
+                        <p class="m-0">Every visit to Magazine Clinic begins with a warm, refreshing welcome, thanks to the thoughtful systems our team has built.</p>
                         <a class="btn btn-lg metro-fill text-white rounded" href="">
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -213,7 +211,7 @@
                             <i class="fab fa-accessible-icon text-white"></i>
                         </div>
                         <h4 class="mb-3">Convenience Care</h4>
-                        <p class="m-0">We have an easy-to-use facilities with free on-phone consultations from our committed team.</p>
+                        <p class="m-0">Our user-friendly facilities come with complimentary phone consultations from committed professionals..</p>
                         <a class="btn btn-lg metro-fill text-white rounded" href="">
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -225,8 +223,7 @@
                             <i class="far fa-hospital text-white"></i>
                         </div>
                         <h4 class="mb-3">Insurance Accredited</h4>
-                        <p class="m-0">We accept quite a number of insurance which include; Premier, Apex, GAB, Acacia,
-                         Glico, Ace, etc.</p>
+                        <p class="m-0">We accept quite a number of insurance which include; NHIS, Premier, GAB, Apex, Ace, etc.</p>
                         <a class="btn btn-lg metro-fill text-white rounded" href="">
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -262,12 +259,10 @@
                     <div class="bg-light rounded">
                         <div class="border-bottom py-4 px-5 mb-4">
                             <h4 class=" mb-1">Purpose</h4>
-                            <small class="text-sentencecase">Why We are here</small>
+                            <small class="text-sentencecase light-color">Why We are here</small>
                         </div>
                         <div class="p-5 pt-0">
-                            <p class="m-0"><strong></strong>Our purpose is to make standardized medical services accessible to all. </p>
-                            <!-- <p></p> -->
-                            <!-- <a href="{{ url('/contact') }}" class="btn metro-fill py-2 px-4 mt-4 text-white">Get in touch</a> -->
+                            <p class="m-0"><strong></strong>Our purpose is to make standardized medical services accessible to all. We’re dedicated to ensuring that everyone receives quality healthcare they can trust, regardless of location or background. </p>
                         </div>
                     </div>
                 </div>
@@ -275,14 +270,12 @@
                     <div class="bg-white rounded shadow position-relative" style="z-index: 1;">
                         <div class="border-bottom py-4 px-5 mb-4">
                             <h4 class=" mb-1">Our Mission</h4>
-                            <small class="text-sentencecase">How we operate</small>
+                            <small class="text-sentencecase light-color">How we operate</small>
                         </div>
                         <div class="p-5 pt-0">
                             <p class="m-0">
-                                Our Mission is to transform the lives of patients by surpassing expectations in healthcare, 
-                                inspiring hope for a better Ghana.
-                                </p>
-                            <!-- <a href="{{ url('/contact') }}" class="btn metro-fill py-2 px-4 mt-4 text-white">Get in touch</a> -->
+                               Our mission is to transform the lives of patients by surpassing expectations in healthcare. </p>
+                               <p>We strive to inspire hope and build a healthier, brighter future for Ghana.</p>
                         </div>
                     </div>
                 </div>
@@ -290,14 +283,13 @@
                     <div class="bg-light rounded">
                         <div class="border-bottom py-4 px-5 mb-4">
                             <h4 class=" mb-1">Our Vision</h4>
-                            <small class="text-sentencecasecase">How You Will See It</small>
+                            <small class="text-sentencecasecase light-color">How You Will See It</small>
                         </div>
                         <div class="p-5 pt-0">
                             <p class="m-0">
-                                Our vision is to be Ghana's most trusted name in healthcare <!-- by providing 
-                                patient-centred and excellent specialty healthcare services. -->
+                                Our vision is to be Ghana’s most trusted name in healthcare. 
+                                We aim to set the standard for excellence by delivering compassionate, reliable, and innovative medical services.
                             </p>
-                            <!-- <a href="{{ url('/contact') }}" class="btn metro-fill py-2 px-4 mt-4 text-white">Get in touch</a> -->
                         </div>
                     </div>
                 </div>
@@ -456,26 +448,25 @@
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold magazine-main-text text-uppercase">Testimonial</h5>
-                <h1 class="mb-0">What Our Clients Say About Our  Services</h1>
+                <h1 class="mb-0">Hear From Our Happy Clients</h1>
             </div>
             <div class="owl-carousel testimonial-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item text-center">
                     <div class="testimonial-text bg-light text-center p-4 mb-4">
                         <p class="mb-0">
-                            I highly recommend Metro Health Services to anyone who is looking out for the best healthcare.
+                            I highly recommend Magazine Clinic to anyone who is looking out for the best healthcare.
                             The environment is clean and the staff are very professional.
                             I had a medical emergency at 10pm, I called them and by the time I got to the hospital,
                             the medical team were on hand to save myself and my daughter, for that am eternally grateful.
                             Just know that you have a client for life.
                         </p>
                     </div>
-                    <!--<img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-1.jpg') }}" style="width: 80px; height: 80px;">-->
                     <div class="mb-2">
-                        <small class="fa fa-star magazine-main-text"></small>
-                        <small class="fa fa-star magazine-main-text"></small>
-                        <small class="fa fa-star magazine-main-text"></small>
-                        <small class="fa fa-star magazine-main-text"></small>
-                        <small class="fa fa-star magazine-main-text"></small>
+                        <small class="fa fa-star light-color"></small>
+                        <small class="fa fa-star light-color"></small>
+                        <small class="fa fa-star light-color"></small>
+                        <small class="fa fa-star light-color"></small>
+                        <small class="fa fa-star light-color"></small>
                     </div>
                     <h5 class="mb-1">Priscilla Esi Baidoo</h5>
                     <p class="m-0">Banker</p>
@@ -485,47 +476,44 @@
                         <p class="mb-0">Calling all women who have fertility issues to come to the hospital because they’re really best at it. 
                         The attention the doctors and nurses give to their patients is unmatched. God bless them.</p>
                     </div>
-                    <!--<img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-2.jpg') }}" style="width: 80px; height: 80px;">-->
                     <div class="mb-2">
-                        <small class="fa fa-star magazine-main-text"></small>
-                        <small class="fa fa-star magazine-main-text"></small>
-                        <small class="fa fa-star magazine-main-text"></small>
-                        <small class="fa fa-star magazine-main-text"></small>
-                        <small class="fa fa-star magazine-main-text"></small>
+                        <small class="fa fa-star light-color"></small>
+                        <small class="fa fa-star light-color"></small>
+                        <small class="fa fa-star light-color"></small>
+                        <small class="fa fa-star light-color"></small>
+                        <small class="fa fa-star light-color"></small>
                     </div>
                     <h5 class="mb-1">Ann Ama Agyekum Anamah</h5>
                     <p class="m-0">Nurse</p>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-text bg-light text-center p-4 mb-4">
-                        <p class="mb-0">Metro Health Services is the best hospital I will recommend for their serene environment, excellent human relations, 
+                        <p class="mb-0">Magazine Clinic is the best hospital I will recommend for their serene environment, excellent human relations, 
                         best doctors, nurses who are always at your service, top notch customer service and state of art facilities. It's an absolute gem when it comes to women and children's care.
                         Dedication and professionalism at its best. Visit them for an unforgettable experience of a lifetime.</p>
                     </div>
-                    <!--<img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-3.jpg') }}" style="width: 80px; height: 80px;">-->
                     <div class="mb-2">
-                        <small class="fa fa-star magazine-main-text"></small>
-                        <small class="fa fa-star magazine-main-text"></small>
-                        <small class="fa fa-star magazine-main-text"></small>
-                        <small class="fa fa-star magazine-main-text"></small>
-                        <small class="fa fa-star magazine-main-text"></small>
+                        <small class="fa fa-star light-color"></small>
+                        <small class="fa fa-star light-color"></small>
+                        <small class="fa fa-star light-color"></small>
+                        <small class="fa fa-star light-color"></small>
+                        <small class="fa fa-star light-color"></small>
                     </div>
                     <h5 class="mb-1">Mary Owusu Twum</h5>
                     <p class="m-0">Teacher</p>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-text bg-light text-center p-4 mb-4">
-                        <p class="mb-0">My experience with Metro Health Services has always been the best all these years, they are always on top of issues ,
+                        <p class="mb-0">My experience with Magazine Clinic has always been the best all these years, they are always on top of issues ,
                         Pediatrician’s are passionate about their work making excellence always achievable . With Dr Naana in charge ,
                         ultimate satisfaction in health care delivery is assured</p>
                     </div>
-                    <!--<img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-4.jpg') }}" style="width: 80px; height: 80px;">-->
                     <div class="mb-2">
-                        <small class="fa fa-star magazine-main-text"></small>
-                        <small class="fa fa-star magazine-main-text"></small>
-                        <small class="fa fa-star magazine-main-text"></small>
-                        <small class="fa fa-star magazine-main-text"></small>
-                        <small class="fa fa-star magazine-main-text"></small>
+                        <small class="fa fa-star light-color"></small>
+                        <small class="fa fa-star light-color"></small>
+                        <small class="fa fa-star light-color"></small>
+                        <small class="fa fa-star light-color"></small>
+                        <small class="fa fa-star light-color"></small>
                     </div>
                     <h5 class="mb-1">Mrs Eunice Oduro-Boateng</h5>
                     <p class="m-0">Guest Service Supervisor</p>
