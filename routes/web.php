@@ -39,7 +39,7 @@ Route::middleware('web')->group(function () {
     // Services group
     Route::prefix('services')->group(function () {
         Route::view('/', 'services')->name('services');
-        Route::view('/ent', 'services.ent')->name('services.ent');
+        Route::view('/dental', 'services.dental')->name('services.dental');
         Route::view('/eye', 'services.eye')->name('services.eye');
         Route::view('/generalmedicine', 'services.general')->name('services.general');
         Route::view('/geriatric', 'services.geriatric')->name('services.geriatric');

@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Magazine Clinic | Our Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Magazine Clinic, Kumasi | Hospital & Medical Services, Pine Avenue</title>
     @include('includes.in_favicon')
 </head>
 <body>
@@ -16,7 +17,7 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="{{ url('/') }}" class="navbar-brand p-0">
-               <h1 class="m-0"><img src="{{ asset('images/logo_1.png') }}" alt=""></i></h1>
+               <h1 class="m-0"><img src="{{ asset('img/logo_1.png') }}" alt="Magazine Clinic Logo"></i></h1>
             </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -32,10 +33,8 @@
                               @include('includes.in_service_list') 
                         </div>
                     </div>
-                    <!-- <a href="blogpost.php" class="nav-item nav-link">Blog</a> -->
                     <a href="{{ url('/contact') }}" class="nav-item nav-link">Contact Us</a>
-                     <!-- <a href="{{ url('/appointments') }}" class=" nav-item nav-link">Appointment</a> -->
-                    <a href="{{ url('/selfservice/portal') }}" class="nav-item nav-link">Portal <sup style="color:red">New</sup></a>
+                    <!-- <a href="{{ url('/selfservice/portal') }}" class="nav-item nav-link">Portal <sup style="color:red">New</sup></a> -->
                 </div>
                  <button type="button" class="btn text-white ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
                 <a href="{{ url('/appointments') }}" class="btn metro-fill metro-text py-2 px-4 ms-3">Book Appointment</a>
@@ -56,21 +55,7 @@
     <!-- Navbar End -->
 
     <!-- Full Screen Search Start -->
-   <div class="modal fade" id="searchModal" tabindex="-1">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
-                <div class="modal-header border-0">
-                    <button type="button" class="btn metro-fill btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body d-flex align-items-center justify-content-center">
-                    <div class="input-group" style="max-width: 600px;">
-                        <input type="text" class="form-control bg-transparent border-metro p-3" placeholder="Type search keyword">
-                        <button class="btn metro-fill px-4"><i class="bi bi-search"></i></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('includes.in_search') 
     <!-- Full Screen Search End -->
         <!-- service Start -->
     @include('includes.in_service_sum') 

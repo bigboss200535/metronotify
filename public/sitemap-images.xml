@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <url>
+        <loc>https://magazineclinic.com/</loc>
+        <image:image>
+            <image:loc>https://magazineclinic.com/images/logo_1.png</image:loc>
+            <image:title>Magazine Clinic Logo - Healthcare in Kumasi</image:title>
+            <image:caption>Magazine Clinic - Quality medical services in Kumasi, Ghana</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://magazineclinic.com/img/carousel-1.jpg</image:loc>
+            <image:title>Modern Medical Facility at Magazine Clinic</image:title>
+            <image:caption>State-of-the-art healthcare facility in Kumasi</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://magazineclinic.com/img/carousel-2.jpg</image:loc>
+            <image:title>Professional Medical Team</image:title>
+            <image:caption>Experienced doctors and nurses at Magazine Clinic</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://magazineclinic.com/about</loc>
+        <image:image>
+            <image:loc>https://magazineclinic.com/img/about.jpg</image:loc>
+            <image:title>About Magazine Clinic Facility</image:title>
+            <image:caption>Our modern medical center in Pine Avenue, Kumasi</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Add more image entries for each page -->
+    
+</urlset>

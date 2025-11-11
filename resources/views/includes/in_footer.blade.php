@@ -4,7 +4,7 @@
                 <div class="col-lg-4 col-md-6 footer-about">
                     <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 metro-fill-gold p-4">
                         <a href="{{ url('/') }}" class="navbar-brand">
-                            <h1 class="m-0"><img src="{{ asset('images/logo_1.png') }}" alt=""></i></h1>
+                            <h1 class="m-0"><img src="{{ asset('images/logo_1.png') }}" alt="Magazine Clinic Logo"></i></h1>
                         </a>
                         <p class="mt-3 mb-4">
                             We deliver the needed healthcare services across all capabilities.
@@ -85,7 +85,7 @@
                             <a class="border-bottom" href="#" style="color:#ffffff"> @include('includes.in_facility') </a>. 
                                 All rights reserved.
                                 <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                                Website by <a style="color:#ffffff" class="border-bottom" href="https://webedgetek.com"><b>WebEdge Technologies</b>
+                                Website by <a style="color:#ffffff" class="border-bottom" href="#"><b>WebEdge Technologies</b>
                             </a>
                       </p>
                     </div>

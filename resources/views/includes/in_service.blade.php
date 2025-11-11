@@ -1,7 +1,7 @@
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold heading-text-color text-uppercase"> OUR SERVICES</h5>
+                <h5 class="fw-bold light-color text-uppercase"> OUR SERVICES</h5>
                 <!-- <h2 class="fw-bold metro-main-text text-uppercase">OUR SERVICES</h2> -->
                 <h1 class="mb-0">What we can offer you</h1>
             </div>
@@ -20,7 +20,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                <!-- <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                     <div class="blog-item bg-light rounded overflow-hidden">
                         <div class="blog-img position-relative overflow-hidden">
                             <img class="img-fluid" src="{{ asset('img/blog-4.jpg') }}" alt="">
@@ -36,7 +36,7 @@
                             <a class="text-uppercase metro-main-text gold-text"  href="/services/geriatric">Read More <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="blog-item bg-light rounded overflow-hidden">
                         <div class="blog-img position-relative overflow-hidden">

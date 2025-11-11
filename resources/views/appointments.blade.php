@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Magazine Clinic | Appointments</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine Clinic, Kumasi | Hospital & Medical Services, Pine Avenue</title>
      @include('includes.in_favicon') 
 </head>
 <body>
@@ -16,7 +17,7 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="{{ url('/') }}" class="navbar-brand p-0">
-               <h1 class="m-0"><img src="{{ asset('images/logo_1.png') }}" alt=""></i></h1>
+               <h1 class="m-0"><img src="{{ asset('img/logo_1.png') }}" alt="Magazine Clinic Logo"></i></h1>
             </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -31,10 +32,8 @@
                              @include('includes.in_service_list') 
                         </div>
                     </div>
-                    <!-- <a href="blogpost.php" class="nav-item nav-link">Blog</a> -->
                     <a href="{{ url('/contact') }}" class="nav-item nav-link">Contact Us</a>
-                    <!-- <a href="{{ url('/appointments') }}" class="nav-item nav-link active">Appointment</a> -->
-                    <a href="{{ url('/selfservice/portal') }}" class="nav-item nav-link">Portal <sup style="color:red">New</sup></a>
+                    <!-- <a href="{{ url('/selfservice/portal') }}" class="nav-item nav-link">Portal <sup style="color:red">New</sup></a> -->
                 </div>
                 <button type="button" class="btn text-white ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
                 <a href="{{ url('/appointments') }}" class="btn metro-fill metro-text py-2 px-4 ms-3">Book Appointment</a>
@@ -61,15 +60,15 @@
             <div class="row g-5">
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold magazine-main-text text-uppercase">Book Appointment</h5>
+                        <h5 class="fw-bold light-color text-uppercase">Book Appointment</h5>
                         <h1 class="mb-0">Do you want to visit us? Book an appointment with us.</h1>
                     </div>
                     <div class="row gx-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-4"><i class="fa fa-reply magazine-main-text me-3"></i>Reply within 24 hours</h5>
+                            <h5 class="mb-4"><i class="fa fa-reply light-color me-3"></i>Reply within 24 hours</h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-4"><i class="fa fa-phone-alt magazine-main-text me-3"></i>24 hrs telephone support</h5>
+                            <h5 class="mb-4"><i class="fa fa-phone-alt light-color me-3"></i>24 hrs telephone support</h5>
                         </div>
                     </div>
                     <p class="mb-4">We have fully-manned and equipped units that run 24 hours a day, 7 days a week. Our services are full-option (as we attend to both Health Maintenance Organisation and private patients). Contact our front desk to help facilitate your prompt and personalised consultation.
@@ -82,7 +81,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Call to ask any question</h5>
-                            <h4 class="magazine-main-text">+233 (0)3220 89675</h4>
+                            <h4 class="light-color">@include('includes.in_telephone')</h4>
                         </div>
                     </div>
                 </div>

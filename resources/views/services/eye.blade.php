@@ -2,39 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title> @include('includes.in_facility')  | Eye Care</title>
-   @include('includes.in_favicon') 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    <!-- Libraries Stylesheet -->
-    <link href="{{ asset('lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('lib/animate/animate.min.css') }}" rel="stylesheet">
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
-    <!-- Template Stylesheet -->
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Magazine Clinic, Kumasi | Hospital & Medical Services, Pine Avenue</title>
+    @include('includes.in_favicon') 
 </head>
-
 <body>
    <!-- Spinner Start -->
      @include('includes.in_spinner') 
     <!-- Spinner End -->
-
     <!-- Topbar Start -->
      @include('includes.in_topbar') 
     <!-- Topbar End -->
-
-
     <!-- Navbar Start -->
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-            <a href="index.php" class="navbar-brand p-0">
-                <h1 class="m-0"><img src="{{ asset('img/logo2.png') }}" alt=""></i></h1>
+            <a href="{{ url('/') }}" class="navbar-brand p-0">
+                <h1 class="m-0"><img src="{{ asset('img/logo_1.png') }}" alt=""></i></h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -72,6 +55,8 @@
     </div>
     <!-- Navbar End -->
      
+  <!-- Full Screen Search Start -->
+     @include('includes.in_search') 
     <!-- Full Screen Search End -->
 
 
@@ -126,21 +111,21 @@
                 <!-- Sidebar Start -->
                 <div class="col-lg-4">
                     <!-- Search Form Start -->
-                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                   <!--  <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
                         <div class="input-group">
                             <input type="text" class="form-control p-3" placeholder="Keyword">
                             <button class="btn metro-fill text-white px-4"><i class="bi bi-search"></i></button>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Search Form End -->
     
                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                            <h3 class="mb-0">Other Services</h3>
+                            <h3 class="mb-0 light-color">Other Services</h3>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-start">
                             <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/services/general') }}"><i class="bi bi-arrow-right me-2"></i>General and Family Medicine</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/services/obstetrics') }}"><i class="bi bi-arrow-right me-2"></i>Geriatrics /Elderly Care</a>
+                            <!-- <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/services/obstetrics') }}"><i class="bi bi-arrow-right me-2"></i>Geriatrics /Elderly Care</a> -->
                             <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/services/obstetrics') }}"><i class="bi bi-arrow-right me-2"></i>Obstetrics & Gynaecology Care</a>
                             <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/services/ent') }}"><i class="bi bi-arrow-right me-2"></i>ENT Care</a>
                             <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/services/surgery') }}"><i class="bi bi-arrow-right me-2"></i>General Surgery</a>

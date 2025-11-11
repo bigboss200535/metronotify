@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Magazine Clinic | About Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine Clinic, Kumasi | Hospital & Medical Services, Pine Avenue</title>
       @include('includes.in_favicon') 
 </head>
 <body>
@@ -16,7 +17,7 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="{{ url('/') }}" class="navbar-brand p-0">
-               <h1 class="m-0"><img src="{{ asset('images/logo_1.png') }}" alt=""></i></h1>
+               <h1 class="m-0"><img src="{{ asset('img/logo_1.png') }}" alt="Magazine Clinic Logo"></i></h1>
             </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -31,16 +32,13 @@
                              @include('includes.in_service_list') 
                         </div>
                     </div>
-                    <!-- <a href="blogpost.php" class="nav-item nav-link">Blog</a> -->
                     <a href="{{ url('/contact') }}" class="nav-item nav-link">Contact Us</a>
-                    <!-- <a href="{{ url('/appointments') }}" class="nav-item nav-link">Appointment</a> -->
-                    <a href="{{ url('/selfservice/portal') }}" class="nav-item nav-link">Portal <sup style="color:red">New</sup></a>
+                    <!-- <a href="{{ url('/selfservice/portal') }}" class="nav-item nav-link">Portal <sup style="color:red">New</sup></a> -->
                 </div>
                 <button type="button" class="btn text-white ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
                 <a href="{{ url('/appointments') }}" class="btn metro-fill metro-text py-2 px-4 ms-3">Book Appointment</a>
             </div>
         </nav>
-
         <div class="container-fluid metro-fill py-5 bg-header page-header"  style="margin-bottom: 90px;">
             <div class="row py-5">
                 <div class="col-12 pt-lg-5 mt-lg-5 text-center">
@@ -53,7 +51,6 @@
         </div>
     </div>
     <!-- Navbar End -->
-
     <!-- Full Screen Search Start -->
      @include('includes.in_search') 
     <!-- Full Screen Search End -->
@@ -64,26 +61,25 @@
             <div class="row g-5">
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold magazine-main-text text-uppercase">About Us</h5>
+                        <h5 class="fw-bold light-color text-uppercase">About Us</h5>
                         <h1 class="mb-0">The best health solution</h1>
                     </div>
-                        <p class="mb-4">At @include('includes.in_facility'), we are dedicated to providing exceptional, professional healthcare services with a personal touch. Our mission is to deliver world-class medical care right here in Ghana, combining international standards with deep-rooted compassion for our patients.
+                        <p class="mb-4">
+                            At @include('includes.in_facility'), we are dedicated to providing exceptional, professional healthcare services with a personal touch. Our mission is to deliver world-class medical care right here in Ghana, combining international standards with deep-rooted compassion for our patients.
 
-                        We believe that visiting a clinic shouldn't be stressful. That's why we’ve created a warm, welcoming environment designed to put both young and adult patients at ease. From the moment you walk through our doors, your comfort, care, and well-being are our top priorities.
+                            We believe that visiting a clinic shouldn't be stressful. That's why we’ve created a warm, welcoming environment designed to put both young and adult patients at ease. From the moment you walk through our doors, your comfort, care, and well-being are our top priorities.
 
-                        Discover the difference at Magazine Clinic, where quality treatment meets genuine care.
-
-                        
+                            Discover the difference at Magazine Clinic, where quality treatment meets genuine care.
                         </p>
-                        <p>Our Mission is to transform the lives of patients by surpassing expectations in healthcare, inspiring hope for a better Ghana.
+                        <p>
+                            Our Mission is to transform the lives of patients by surpassing expectations in healthcare, inspiring hope for a better Ghana.
 
-                        Our vision is to be Ghana's most trusted name in healthcare.
+                            Our vision is to be Ghana's most trusted name in healthcare.
                         </p>
                     <div class="row g-0 mb-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
                             <h5 class="mb-3"><i class="fa fa-check light-color me-3"></i>Skilled Professionals Staff</h5>
                             <h5 class="mb-3"><i class="fa fa-check light-color me-3"></i>Expert Solutions</h5>
-                           
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
                             <h5 class="mb-3"><i class="fa fa-check light-color me-3"></i>Round-the-clock Support</h5>
@@ -99,11 +95,11 @@
                             <h4 class="light-color mb-0">@include('includes.in_telephone')</h4>
                         </div>
                     </div>
-                    <!-- <a href="{{ url('/contact') }}" class="btn metro-fill text-white py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Get In Touch</a> -->
+                    <a href="{{ url('/contact') }}" class="btn metro-fill text-white py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Get In Touch</a>
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('img/about2.jpg') }}" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('img/ceo.jpg') }}" alt="magazine_clinic_C.E.O" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
@@ -115,8 +111,8 @@
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold magazine-main-text text-uppercase">Our Guiding Principles</h5>
-                <h1 class="mb-0">We are here to serve our patients </h1>
+                <h5 class="fw-bold light-color text-uppercase">Our Guiding Principles</h5>
+                <h1 class="mb-0">We are here to serve you. </h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4">
@@ -140,7 +136,7 @@
                 </div>
                 <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="{{ asset('img/feature.jpg') }}" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" alt="magazine clinic" data-wow-delay="0.1s" src="{{ asset('img/feature.jpg') }}" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -167,21 +163,64 @@
     </div>
     <!-- Features Start -->
 
-    <!-- Team Start -->
+   
+    
+    <!-- founder Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold light-color text-uppercase">Our Founder</h5>
+                <h1 class="mb-0">Meet the founding father of Magazine Clinic</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-8">
+                    <!-- Blog Detail Start -->
+                    <div class="mb-5">
+                        <img class="img-fluid w-100 rounded mb-5" src="{{ asset('img/serv1-blog-1.jpg') }}" alt="Dr. E. K. Ahenkorah">
+                        <h1 class="mb-4 light-color"><strong>Dr. E. K. Ahenkorah</strong></h1>
+                        <p>Dr. E. K. Ahenkorah is the esteemed founder and leading General Practitioner of Magazine Clinic, bringing a profound depth of experience and a compassionate vision to our practice. His dedication to community health was the driving force behind establishing a clinic that prioritizes accessible, patient-centered care for all. As a hands-on practitioner, he is deeply committed to a holistic approach, ensuring each patient receives personalized and thorough medical attention. Under his steadfast leadership, Magazine Clinic has grown into a trusted healthcare institution, renowned for its reliability and clinical excellence. 
+                        </p>
+                        <p>Dr. Ahenkorah firmly believes in building strong, lasting relationships with his patients, founded on trust and open     communication. His unwavering commitment guides our entire team in delivering the highest standard of quality and compassionate healthcare every day.
+                        </p>
+                    </div>
+                    <!-- Blog Detail End -->
+                </div>
+    
+                <!-- Sidebar Start -->
+                <div class="col-lg-4">
+                    <!-- Image Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <img src="{{ asset('img/blog-2.jpg') }}" alt="Dr. Ahenkorah" class="img-fluid rounded">
+                    </div>
+                    <!-- Image End -->
+                    
+                    <!-- Image Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <img src="{{ asset('img/blog-3.jpg') }}" alt="Magazine Clinic Founder" class="img-fluid rounded">
+                    </div>
+                    <!-- Image End -->
+                     <!-- Image Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <img src="{{ asset('img/blog-3.jpg') }}" alt="Magazine Clinic Owner" class="img-fluid rounded">
+                    </div>
+                    <!-- Image End -->
+                </div>
+                <!-- Sidebar End -->
+            </div>
+        </div>
+    </div>
+    <!-- founder End -->    
+     <!-- Team Start -->
     @include('includes.in_team') 
-    <!-- Team End -->
-
+    <!-- Team End -->          
     <!-- faq start -->
       @include('includes.in_faq') 
     <!-- faq End -->
-    
     <!-- Footer Start -->
      @include('includes.in_footer') 
     <!-- Footer End -->
-
     <!-- Back to Top -->
      @include('includes.to_top') 
-
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>

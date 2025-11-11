@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Home Page -->
+  <url>
+    <loc>https://magazineclinic.com/</loc>
+    <lastmod>2025-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://magazineclinic.com/img/logo_1.png</image:loc>
+      <image:title>Magazine Clinic - Modern Healthcare Facility</image:title>
+      <image:caption>State-of-the-art medical clinic offering comprehensive healthcare services</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://magazineclinic.com/images/about.jpg</image:loc>
+      <image:title>Our Expert Medical Team at Magazine Clinic</image:title>
+    </image:image>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://magazineclinic.com/about</loc>
+    <lastmod>2025-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://magazineclinic.com/img/feature.jpg</image:loc>
+      <image:title>About Magazine Clinic - Our Guiding Principles</image:title>
+      <image:caption>Learn about Magazine Clinic's history and commitment to quality healthcare</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://magazineclinic.com/img/ceo.jpg</image:loc>
+      <image:title>Meet Our Lead Physicians at Magazine Clinic</image:title>
+    </image:image>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://magazineclinic.com/contact</loc>
+    <lastmod>2024-01-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://magazineclinic.com/img/logo_1.jpg</image:loc>
+      <image:title>Magazine Clinic Location Map & Directions</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://magazineclinic.com/images/carousel-3.jpg</image:loc>
+      <image:title>Contact Magazine Clinic - Friendly Reception Staff</image:title>
+    </image:image>
+  </url>
+
+  <!-- Services Pages -->
+  
+  <!-- Dental Services -->
+  <url>
+    <loc>https://magazineclinic.com/services/dental</loc>
+    <lastmod>2024-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://magazineclinic.com/img/slider-1.jpg</image:loc>
+      <image:title>Dental Services at Magazine Clinic</image:title>
+      <image:caption>Comprehensive dental care including cleanings, fillings, and cosmetic dentistry</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://magazineclinic.com/img/service-2.jpg</image:loc>
+      <image:title>Modern Dental Equipment & Technology</image:title>
+    </image:image>
+  </url>
+
+  <!-- Eye Care Services -->
+  <url>
+    <loc>https://magazineclinic.com/services/eye</loc>
+    <lastmod>2024-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://magazineclinic.com/img/service-3.jpg</image:loc>
+      <image:title>Eye Care & Vision Services at Magazine Clinic</image:title>
+      <image:caption>Complete eye exams, vision correction, and treatment for eye conditions</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://magazineclinic.com/img/service-1.jpg</image:loc>
+      <image:title>Advanced Vision Testing Technology</image:title>
+    </image:image>
+  </url>
+
+  <!-- Scan Services -->
+  <url>
+    <loc>https://magazineclinic.com/services/scan</loc>
+    <lastmod>2024-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://magazineclinic.com/images/scanning-services.jpg</image:loc>
+      <image:title>Medical Scanning & Imaging Services</image:title>
+      <image:caption>MRI, CT scans, ultrasound and advanced diagnostic imaging</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://magazineclinic.com/images/mri-machine.jpg</image:loc>
+      <image:title>State-of-the-Art MRI Scanning Equipment</image:title>
+    </image:image>
+  </url>
+
+  <!-- Lab Services -->
+  <url>
+    <loc>https://magazineclinic.com/services/lab</loc>
+    <lastmod>2024-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://magazineclinic.com/images/laboratory-services.jpg</image:loc>
+      <image:title>Laboratory & Diagnostic Testing Services</image:title>
+      <image:caption>Blood tests, pathology, and comprehensive laboratory analysis</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://magazineclinic.com/images/lab-technician.jpg</image:loc>
+      <image:title>Certified Lab Technicians at Magazine Clinic</image:title>
+    </image:image>
+  </url>
+
+  <!-- Obstetrics Services -->
+  <url>
+    <loc>https://magazineclinic.com/services/obstetrics</loc>
+    <lastmod>2024-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://magazineclinic.com/images/obstetrics-care.jpg</image:loc>
+      <image:title>Obstetrics & Maternity Care Services</image:title>
+      <image:caption>Prenatal care, delivery, and postpartum services for expecting mothers</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://magazineclinic.com/images/ultrasound-room.jpg</image:loc>
+      <image:title>Comfortable Ultrasound & Prenatal Care Rooms</image:title>
+    </image:image>
+  </url>
+
+  <!-- Pharmacy Services -->
+  <url>
+    <loc>https://magazineclinic.com/services/pharmacy</loc>
+    <lastmod>2024-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://magazineclinic.com/images/pharmacy-services.jpg</image:loc>
+      <image:title>On-Site Pharmacy Services at Magazine Clinic</image:title>
+      <image:caption>Full-service pharmacy with prescription medications and healthcare products</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://magazineclinic.com/images/pharmacy-counter.jpg</image:loc>
+      <image:title>Convenient Pharmacy Counter at Magazine Clinic</image:title>
+    </image:image>
+  </url>
+
+</urlset>

@@ -93,8 +93,20 @@
         });
     });
 </script>
-
-
-
+<script type="application/ld+json">
+    {
+      "@context": "https://magazineclinic.com",
+      "@type": "SoftwareApplication",
+      "name": "Magazine Clinic ",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Web-Based",
+      "description": "Hospital appointment management and patient scheduling software",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "CEDI"
+      }
+    }
+    </script>
  </body>
 </html>

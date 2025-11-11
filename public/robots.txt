@@ -1,2 +1,29 @@
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+Disallow: /*.php$
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Sitemap location
+Sitemap: https://magazineclinic.com/sitemap.xml
+Sitemap: https://magazineclinic.com/sitemap-images.xml
+
+# Crawl delay to prevent server overload
+Crawl-delay: 1
+
+# Allow search engines for important bots
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1

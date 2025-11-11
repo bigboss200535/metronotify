@@ -47,6 +47,10 @@
     color: var(--metro-fill-gold) !important;
 }
 
+.light-color-fill {
+    background-color: var(--metro-fill-gold) !important;
+}
+
 .metro-main-text {
     color: #002d72 !important;
 }

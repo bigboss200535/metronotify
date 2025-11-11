@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Magazine Clinic, Kumasi | Hospital & Medical Services, Pine Avenue</title>
-    @include('includes.in_favicon') 
+     <title>Magazine Clinic, Kumasi | Hospital & Medical Services, Pine Avenue</title>
+     @include('includes.in_favicon') 
 </head>
 <body>
     <!-- Spinner Start -->
-      @include('includes.in_spinner') 
+     @include('includes.in_spinner') 
     <!-- Spinner End -->
     <!-- Topbar Start -->
      @include('includes.in_topbar') 
@@ -24,18 +24,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="/" class="nav-item nav-link">Home</a>
-                    <a href="/about" class="nav-item nav-link">About Us</a>
+                    <a href="{{ url('/') }}" class="nav-item nav-link">Home</a>
+                    <a href="{{ url('/about') }}" class="nav-item nav-link">About Us</a>
                     <!--<a href="service.php" class="nav-item nav-link">Services</a>-->
                     <div class="nav-item dropdown">
-                        <a href="/services" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown active">Our Services</a>
+                        <a href="{{ url('/services') }}" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown active">
+                           Our Services
+                        </a>
                         <div class="dropdown-menu m-0">
-                            @include('includes.in_service_list') 
+                             @include('includes.in_service_list') 
                         </div>
                     </div>
 					<!-- <a href="blogpost.php" class="nav-item nav-link">Blog</a> -->
-                    <a href="/contact" class="nav-item nav-link">Contact Us</a>
-                     <!-- <a href="/appointments" class="nav-item nav-link">Appointments</a> -->
+                    <a href="{{ url('/contact') }}" class="nav-item nav-link">Contact Us</a>
+                     <!-- <a href="{{ url('/appointments') }}" class="nav-item nav-link">Appointments</a> -->
                 </div>
                  <button type="button" class="btn text-white ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
                 <a href="{{ url('/appointments') }}" class="btn metro-fill metro-text py-2 px-4 ms-3">Book Appointment</a>
@@ -45,21 +47,18 @@
         <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
             <div class="row py-5">
                 <div class="col-12 pt-lg-5 mt-lg-5 text-center">
-                    <h1 class="display-4 text-white animated zoomIn">Obstetrics and Gynaecology</h1>
-                    <a href="index.php" class="h5 text-white">Home</a>
+                    <h1 class="display-4 text-white animated zoomIn">Ear, Nose & Throat (ENT)</h1>
+                    <a href="{{ url('/') }}" class="h5 text-white">Home</a>
                     <i class="far fa-hospital text-white px-2"></i>
-                    <a href="service.php" class="h5 text-white">Services</a>
+                    <a href="{{ url('/services') }}" class="h5 text-white">Services</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- Navbar End -->
-
-
-    <!-- Full Screen Search Start -->
+<!-- Full Screen Search Start -->
      @include('includes.in_search') 
     <!-- Full Screen Search End -->
-
     <!-- Blog Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
@@ -68,9 +67,9 @@
                     <!-- Blog Detail Start -->
                     <div class="mb-5">
                         <img class="img-fluid w-100 rounded mb-5" src="{{ asset('img/blog-1.jpg') }}" alt="">
-                        <h1 class="mb-4">Obstetrics and Gynaecology</h1>
+                        <h1 class="mb-4">Ear, Nose and Throat (ENT)</h1>
                         <p>Today’s woman is busier than ever, balancing careers, families, and a myriad of other responsibilities.
-						We at @include('includes.in_facility') understand and are committed to bringing smiles to your faces. Our consultants are passionate to
+						We at  @include('includes.in_facility')  understand and are committed to bringing smiles to your faces. Our consultants are passionate to
 						supply solutions to preconception, antenatal, and postnatal concerns.</p>
                         <p>We offer labour and delivery services. We also offer programmes, classes, and support for our expecting mothers.</p>
                         <p>Subspecialty services supplied include general obstetrics and gynaecology, maternal-fetal medicine, 
@@ -112,27 +111,27 @@
                 <!-- Sidebar Start -->
                 <div class="col-lg-4">
                     <!-- Search Form Start -->
-                   <!--  <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
                         <div class="input-group">
                             <input type="text" class="form-control p-3" placeholder="Keyword">
                             <button class="btn metro-fill text-white px-4"><i class="bi bi-search"></i></button>
                         </div>
-                    </div> -->
+                    </div>
                     <!-- Search Form End -->
     
                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                            <h3 class="mb-0 light-color">Other Services</h3>
+                            <h3 class="mb-0">Other Services</h3>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-start">
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/general"><i class="bi bi-arrow-right me-2"></i>General and Family Medicine</a>
-                            <!-- <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/obstetrics"><i class="bi bi-arrow-right me-2"></i>Geriatrics /Elderly Care</a> -->
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/ent"><i class="bi bi-arrow-right me-2"></i>ENT Care</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/eye"><i class="bi bi-arrow-right me-2"></i>Eye Care</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/surgery"><i class="bi bi-arrow-right me-2"></i>General Surgery</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/pharmacy"><i class="bi bi-arrow-right me-2"></i>Pharmacy Services</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/laboratory"><i class="bi bi-arrow-right me-2"></i>Laboratory Services</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/ultrasound"><i class="bi bi-arrow-right me-2"></i>Advanced Ultrasound Services</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/general') }}"><i class="bi bi-arrow-right me-2"></i>General and Family Medicine</a>
+                            <!-- <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/obstetrics') }}"><i class="bi bi-arrow-right me-2"></i>Geriatrics /Elderly Care</a> -->
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/obstetrics') }}"><i class="bi bi-arrow-right me-2"></i>Obstetrics & Gynaecology Care</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/eye') }}"><i class="bi bi-arrow-right me-2"></i>Eye Care</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/surgery') }}"><i class="bi bi-arrow-right me-2"></i>General Surgery</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/pharmacy') }}"><i class="bi bi-arrow-right me-2"></i>Pharmacy Services</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/laboratory') }}"><i class="bi bi-arrow-right me-2"></i>Laboratory Services</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/ultrasound') }}"><i class="bi bi-arrow-right me-2"></i>Advanced Ultrasound Services</a>
                         </div>
                     </div>
     
@@ -143,7 +142,7 @@
                         <img src="{{ asset('img/blog-2.jpg') }}" alt="" class="img-fluid rounded">
                     </div>
 					 <!-- Image End -->
-					
+					 
 					<!--Blank Space-->
 					<p></p>
 					<p></p>
@@ -166,7 +165,6 @@
 					<p></p>
 					<p></p>
 					<!--Blank Space-->
-
                 </div>
                 <!-- Sidebar End -->
             </div>
@@ -176,11 +174,14 @@
 	  <!-- Testimonial start -->
     @include('includes.in_faq') 
     <!-- Testimonial End -->
+
     <!-- Footer Start -->
      @include('includes.in_footer') 
     <!-- Footer End -->
+
     <!-- Back to Top -->
      @include('includes.to_top') 
+   
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -189,6 +190,7 @@
     <script src="{{ asset('lib/waypoints/waypoints.min.js') }}"></script>
     <script src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
     <script src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
+    <!-- Template Javascript -->
     <script src="{{ asset('js/main.js') }}"></script>
 </body>
 

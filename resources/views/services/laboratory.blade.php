@@ -1,24 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
-    <title> @include('includes.in_facility')  | Laboratory Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Magazine Clinic, Kumasi | Hospital & Medical Services, Pine Avenue</title>
      @include('includes.in_favicon') 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapixs.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    <!-- Libraries Stylesheet -->
-    <link href="{{ asset('lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('lib/animate/animate.min.css') }}" rel="stylesheet">
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
-    <!-- Template Stylesheet -->
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -29,13 +16,11 @@
     <!-- Topbar Start -->
      @include('includes.in_topbar') 
     <!-- Topbar End -->
-
-
     <!-- Navbar Start -->
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-            <a href="index.php" class="navbar-brand p-0">
-                <h1 class="m-0"><img src="{{ asset('img/logo2.png') }}" alt=""></i></h1>
+            <a href="{{ url('/') }}" class="navbar-brand p-0">
+                <h1 class="m-0"><img src="{{ asset('img/logo_1.png') }}" alt=""></i></h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -74,22 +59,8 @@
     <!-- Navbar End -->
 
 
-    <!-- Full Screen Search Start -->
-    <!-- <div class="modal fade" id="searchModal" tabindex="-1">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
-                <div class="modal-header border-0">
-                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body d-flex align-items-center justify-content-center">
-                    <div class="input-group" style="max-width: 600px;">
-                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
-                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
+   <!-- Full Screen Search Start -->
+     @include('includes.in_search') 
     <!-- Full Screen Search End -->
 
 
@@ -159,7 +130,7 @@
 						    <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="/services/general"><i class="bi bi-arrow-right me-2"></i>General/Family Medicine</a>
                             <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="/services/obstetrics"><i class="bi bi-arrow-right me-2"></i>Obstetrics/Gynaecology</a>
 							<!-- <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="serv4.php"><i class="bi bi-arrow-right me-2"></i>In Vitro Fertilization</a> -->
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="serv3.php"><i class="bi bi-arrow-right me-2"></i>Pediatrics</a>
+                            <!-- <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="serv3.php"><i class="bi bi-arrow-right me-2"></i>Pediatrics</a> -->
                             <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="serv6.php"><i class="bi bi-arrow-right me-2"></i>Internal Medicine</a>
                             <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="serv7.php"><i class="bi bi-arrow-right me-2"></i>Surgery</a>
                             <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="serv8"><i class="bi bi-arrow-right me-2"></i>Pharmacy</a>
