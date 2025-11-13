@@ -55,64 +55,13 @@
      @include('includes.in_search') 
     <!-- Full Screen Search End -->
 
-    <!-- About Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-7">
-                    <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold light-color text-uppercase">About Us</h5>
-                        <h1 class="mb-0">The best health solution</h1>
-                    </div>
-                        <p class="mb-4">
-                            At @include('includes.in_facility'), we are dedicated to providing exceptional, professional healthcare services with a personal touch. Our mission is to deliver world-class medical care right here in Ghana, combining international standards with deep-rooted compassion for our patients.
 
-                            We believe that visiting a clinic shouldn't be stressful. That's why we’ve created a warm, welcoming environment designed to put both young and adult patients at ease. From the moment you walk through our doors, your comfort, care, and well-being are our top priorities.
-
-                            Discover the difference at Magazine Clinic, where quality treatment meets genuine care.
-                        </p>
-                        <p>
-                            Our Mission is to transform the lives of patients by surpassing expectations in healthcare, inspiring hope for a better Ghana.
-
-                            Our vision is to be Ghana's most trusted name in healthcare.
-                        </p>
-                    <div class="row g-0 mb-3">
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-3"><i class="fa fa-check light-color me-3"></i>Skilled Professionals Staff</h5>
-                            <h5 class="mb-3"><i class="fa fa-check light-color me-3"></i>Expert Solutions</h5>
-                        </div>
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-3"><i class="fa fa-check light-color me-3"></i>Round-the-clock Support</h5>
-                            <h5 class="mb-3"><i class="fa fa-check light-color me-3"></i>State-of-the-Art Facilities</h5>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
-                        <div class="metro-fill d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
-                            <i class="fa fa-phone-alt text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="mb-2">Call to ask any question</h5>
-                            <h4 class="light-color mb-0">@include('includes.in_telephone')</h4>
-                        </div>
-                    </div>
-                    <a href="{{ url('/contact') }}" class="btn metro-fill text-white py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Get In Touch</a>
-                </div>
-                <div class="col-lg-5" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('img/ceo.jpg') }}" alt="magazine_clinic_C.E.O" style="object-fit: cover;">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
- <!-- Features Start -->
+ <!-- about us Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold light-color text-uppercase">Our Guiding Principles</h5>
-                <h1 class="mb-0">We are here to serve you. </h1>
+                <h5 class="fw-bold light-color text-uppercase">About Us</h5>
+                <h1 class="mb-0">Our Guilding Principles </h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4">
@@ -161,23 +110,76 @@
             </div>
         </div>
     </div>
-    <!-- Features Start -->
+    <!-- about us Start -->
 
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold light-color text-uppercase">Our CEO</h5>
+                        <!-- <h1 class="mb-0">The best health solution</h1> -->
+                         <h1 class="mb-0">Mrs Comfort Ahenkorah </h1>
+                    </div>
+                        <p class="mb-4">
+                            At @include('includes.in_facility'), we are dedicated to providing exceptional, professional healthcare services with a personal touch. Our mission is to deliver world-class medical care right here in Ghana, combining international standards with deep-rooted compassion for our patients.
+
+                            We believe that visiting a clinic shouldn't be stressful. That's why we’ve created a warm, welcoming environment designed to put both young and adult patients at ease. From the moment you walk through our doors, your comfort, care, and well-being are our top priorities.
+
+                            Discover the difference at @include('includes.in_facility'), where quality treatment meets genuine care.
+                        </p>
+                        <p>
+                            Our Mission is to transform the lives of patients by surpassing expectations in healthcare, inspiring hope for a better Ghana.
+
+                            Our vision is to be Ghana's most trusted name in healthcare.
+                        </p>
+                    <div class="row g-0 mb-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <h5 class="mb-3"><i class="fa fa-check light-color me-3"></i>Skilled Professionals Staff</h5>
+                            <h5 class="mb-3"><i class="fa fa-check light-color me-3"></i>Expert Solutions</h5>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                            <h5 class="mb-3"><i class="fa fa-check light-color me-3"></i>Round-the-clock Support</h5>
+                            <h5 class="mb-3"><i class="fa fa-check light-color me-3"></i>State-of-the-Art Facilities</h5>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
+                        <div class="metro-fill d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                            <i class="fa fa-phone-alt text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="mb-2">Call to ask any question</h5>
+                            <h4 class="light-color mb-0">@include('includes.in_telephone')</h4>
+                        </div>
+                    </div>
+                    <a href="{{ url('/contact') }}" class="btn metro-fill text-white py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Get In Touch</a>
+                </div>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('img/ceo.jpg') }}" alt="magazine_clinic_C.E.O" style="object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
    
-    
     <!-- founder Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
              <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold light-color text-uppercase">Our Founder</h5>
-                <h1 class="mb-0">Meet the founding father of Magazine Clinic</h1>
+                <h5 class="fw-bold light-color text-uppercase">Our Medical Director and Founder</h5>
+                <h1 class="mb-0">Dr. Edward Kwarko Ahenkorah</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-8">
                     <!-- Blog Detail Start -->
                     <div class="mb-5">
-                        <img class="img-fluid w-100 rounded mb-5" src="{{ asset('img/serv1-blog-1.jpg') }}" alt="Dr. E. K. Ahenkorah">
-                        <h1 class="mb-4 light-color"><strong>Dr. E. K. Ahenkorah</strong></h1>
+                        <img class="img-fluid w-100 rounded mb-5" src="{{ asset('img/image-2.jpg') }}" alt="Dr. E. K. Ahenkorah">
+                        <!-- <h1 class="mb-4 light-color"><strong>Dr. Edward Kwarko Ahenkorah</strong></h1> -->
                         <p>Dr. E. K. Ahenkorah is the esteemed founder and leading General Practitioner of Magazine Clinic, bringing a profound depth of experience and a compassionate vision to our practice. His dedication to community health was the driving force behind establishing a clinic that prioritizes accessible, patient-centered care for all. As a hands-on practitioner, he is deeply committed to a holistic approach, ensuring each patient receives personalized and thorough medical attention. Under his steadfast leadership, Magazine Clinic has grown into a trusted healthcare institution, renowned for its reliability and clinical excellence. 
                         </p>
                         <p>Dr. Ahenkorah firmly believes in building strong, lasting relationships with his patients, founded on trust and open     communication. His unwavering commitment guides our entire team in delivering the highest standard of quality and compassionate healthcare every day.
@@ -190,18 +192,18 @@
                 <div class="col-lg-4">
                     <!-- Image Start -->
                     <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
-                        <img src="{{ asset('img/blog-2.jpg') }}" alt="Dr. Ahenkorah" class="img-fluid rounded">
+                        <img src="{{ asset('img/image-3.jpg') }}" alt="Dr. Ahenkorah" class="img-fluid rounded">
                     </div>
                     <!-- Image End -->
                     
                     <!-- Image Start -->
                     <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
-                        <img src="{{ asset('img/blog-3.jpg') }}" alt="Magazine Clinic Founder" class="img-fluid rounded">
+                        <img src="{{ asset('img/image-1.jpg') }}" alt="Magazine Clinic Founder" class="img-fluid rounded">
                     </div>
                     <!-- Image End -->
                      <!-- Image Start -->
                     <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
-                        <img src="{{ asset('img/blog-3.jpg') }}" alt="Magazine Clinic Owner" class="img-fluid rounded">
+                        <img src="{{ asset('img/image-4.jpg') }}" alt="Magazine Clinic Owner" class="img-fluid rounded">
                     </div>
                     <!-- Image End -->
                 </div>
@@ -211,8 +213,82 @@
     </div>
     <!-- founder End -->    
      <!-- Team Start -->
-    @include('includes.in_team') 
-    <!-- Team End -->          
+
+    <!-- Team End -->       
+
+    <!-- founder Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold light-color text-uppercase">Our Family</h5>
+                <h1 class="mb-0">Meet Our Happy family</h1>
+            </div>
+            <div class="row g-5">
+                <!-- Sidebar Start -->
+                <div class="col-lg-4">
+                    <!-- Image Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <img src="{{ asset('img/family-1.jpg') }}" alt="Dr. Ahenkorah" class="img-fluid rounded">
+                    </div>
+                    <!-- Image End -->
+                    
+                    <!-- Image Start -->
+                     <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <img src="{{ asset('img/family-4.jpg') }}" alt="Magazine Clinic Founder" class="img-fluid rounded">
+                    </div> 
+                    <!-- Image End -->
+                     <!-- Image Start -->
+                    <!-- <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <img src="{{ asset('img/image-4.jpg') }}" alt="Magazine Clinic Owner" class="img-fluid rounded">
+                    </div> -->
+                    <!-- Image End -->
+                </div>
+                <!-- Sidebar End -->
+                <!-- Sidebar Start -->
+                <div class="col-lg-4">
+                    <!-- Image Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <img src="{{ asset('img/family-2.jpg') }}" alt="Dr. Ahenkorah" class="img-fluid rounded">
+                    </div>
+                    <!-- Image End -->
+                    
+                    <!-- Image Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <img src="{{ asset('img/family-5.jpg') }}" alt="Magazine Clinic Founder" class="img-fluid rounded">
+                    </div>
+                    <!-- Image End -->
+                     <!-- Image Start -->
+                   <!--  <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <img src="{{ asset('img/image-4.jpg') }}" alt="Magazine Clinic Owner" class="img-fluid rounded">
+                    </div> -->
+                    <!-- Image End -->
+                </div>
+                <!-- Sidebar End -->
+                <!-- Sidebar Start -->
+                <div class="col-lg-4">
+                    <!-- Image Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <img src="{{ asset('img/family-3.jpg') }}" alt="Dr. Ahenkorah" class="img-fluid rounded">
+                    </div>
+                    <!-- Image End -->
+                    
+                    <!-- Image Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <img src="{{ asset('img/family-6.jpg') }}" alt="Magazine Clinic Founder" class="img-fluid rounded">
+                    </div>
+                    <!-- Image End -->
+                     <!-- Image Start -->
+                    <!-- <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <img src="{{ asset('img/image-4.jpg') }}" alt="Magazine Clinic Owner" class="img-fluid rounded">
+                    </div> -->
+                    <!-- Image End -->
+                </div>
+                <!-- Sidebar End -->
+            </div>
+        </div>
+    </div>
+    <!-- founder End -->    
+       
     <!-- faq start -->
       @include('includes.in_faq') 
     <!-- faq End -->

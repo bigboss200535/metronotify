@@ -41,17 +41,7 @@
         </nav>
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item">
-                    <img class="w-100" src="{{ asset('img/slider-1.jpg') }}" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-lowercase mb-3 animated slideInDown"></h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Healing Hearts, Saving Lives</h1>
-                            <a href="{{ url('/contact') }}" class="btn metro-fill metro-text py-md-3 px-md-5 me-3 animated slideInLeft">Get in touch</a>
-                            <a href="{{ url('/contact') }}" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="carousel-item active">
                     <img class="w-100" src="{{ asset('img/carousel-1.jpg') }}" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
@@ -107,7 +97,17 @@
                         </div>
                     </div>
                 </div>
-                 
+                 <div class="carousel-item">
+                    <img class="w-100" src="{{ asset('img/carousel-7.jpg') }}" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h5 class="text-white text-lowercase mb-3 animated slideInDown"></h5>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Healing Hearts, Saving Lives</h1>
+                            <a href="{{ url('/contact') }}" class="btn metro-fill metro-text py-md-3 px-md-5 me-3 animated slideInLeft">Get in touch</a>
+                            <a href="{{ url('/contact') }}" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
                 data-bs-slide="prev">
@@ -324,7 +324,7 @@
                     <div class="bg-light rounded">
                         <div class="border-bottom py-4 px-5 mb-4">
                             <h4 class="light-color mb-1" style="color: black;">OBSTETRICS & GYNAE</h4>
-                            <small class="text-uppercase text-dark">MONDAYS</small>
+                            <small class="text-uppercase text-dark">MONDAYS & FRIDAYS</small>
                         </div>
                         <div class="p-5 pt-0">
                             <h1 class="display-5 mb-3">
@@ -339,7 +339,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="bg-white rounded shadow position-relative" style="z-index: 1;">
                         <div class="border-bottom py-4 px-5 mb-4">
-                            <h4 class="light-color mb-1" style="color: black;"> EAR, NOSE AND THROAT</h4>
+                            <h4 class="light-color mb-1" style="color: black;"> DENTAL CLINIC</h4>
                             <small class="text-uppercase text-dark">WEDNESDAYS</small>
                         </div>
                         <div class="p-5 pt-0">
@@ -355,7 +355,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                     <div class="bg-light rounded">
                         <div class="border-bottom py-4 px-5 mb-4">
-                            <h4 class="light-color mb-1" >ORTHOPEDICS CARE</h4>
+                            <h4 class="light-color mb-1" >EYE CLINIC</h4>
                             <small class="text-uppercase text-dark">WEDNESDAYS</small>
                         </div>
                         <div class="p-5 pt-0">
@@ -450,7 +450,7 @@
     <!-- Quote End -->
 
     <!-- Team Start -->
-    @include('includes.in_team') 
+
     <!-- Team End -->
 
         <!-- Testimonial 2 Start -->
