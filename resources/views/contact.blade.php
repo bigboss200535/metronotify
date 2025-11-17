@@ -70,9 +70,9 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2"> Call us on</h5>
-                            <a><h6 class="light-color mb-1">+233 322190051</h6></a>
+                            <a><h6 class="light-color mb-1">+233 (0)322190051</h6></a>
                             <h6 class="light-color mb-0">@include('includes.in_telephone')</h6>
-                            <h6 class="light-color mb-0">+233 544363232</h6>
+                            <h6 class="light-color mb-0">+233 (0)544363232</h6>
                         </div>
                     </div>
                 </div>

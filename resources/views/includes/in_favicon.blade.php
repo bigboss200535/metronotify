@@ -9,7 +9,7 @@
 <meta name="services" content="https://magazineclinic.com/, Hospital Services, Dental Care, Surgery, Laboratory Diagnostics">
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
-<link href="{{ asset('img/favicon.png') }}" rel="icon">
+<link href="{{ asset('img/favicon.ico') }}" rel="icon">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">

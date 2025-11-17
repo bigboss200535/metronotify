@@ -71,7 +71,7 @@
                             <h5 class="mb-4"><i class="fa fa-phone-alt light-color me-3"></i>24 hrs telephone support</h5>
                         </div>
                     </div>
-                    <p class="mb-4">We have fully-manned and equipped units that run 24 hours a day, 7 days a week. Our services are full-option (as we attend to both Health Maintenance Organisation and private patients). Contact our front desk to help facilitate your prompt and personalised consultation.
+                    <p class="mb-4">We have fully-manned and equipped units that run 24 hours a day, 7 days a week. Our services are full-option (as we attend to both Health Insurance card holders and private patients). Contact our front desk to help facilitate your prompt and personalised consultation.
                     </p> 
                     <p class="mb-4"> It is with much pleasure to open our doors in readiness to offer you quality, efficient, effective, reliable, timely, safe and patient centred healthcare service.
                     </p>

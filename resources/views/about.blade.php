@@ -120,7 +120,7 @@
             <div class="row g-5">
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold light-color text-uppercase">Our CEO</h5>
+                        <h5 class="fw-bold light-color text-uppercase">Our Chief Executive Officer</h5>
                         <!-- <h1 class="mb-0">The best health solution</h1> -->
                          <h1 class="mb-0">Mrs Comfort Ahenkorah </h1>
                     </div>

@@ -68,17 +68,27 @@
                 <div class="col-lg-8">
                     <!-- Blog Detail Start -->
                     <div class="mb-5">
-                        <img class="img-fluid w-100 rounded mb-5" src="{{ asset('img/blog-1.jpg') }}" alt="">
+                        <img class="img-fluid w-100 rounded mb-5" src="{{ asset('img/service-1-5.jpg') }}" alt="">
                         <h1 class="mb-4">General Surgery</h1>
-                        <p>Today’s woman is busier than ever, balancing careers, families, and a myriad of other responsibilities.
-						We at @include('includes.in_facility') understand and are committed to bringing smiles to your faces. Our consultants are passionate to
-						supply solutions to preconception, antenatal, and postnatal concerns.</p>
-                        <p>We offer labour and delivery services. We also offer programmes, classes, and support for our expecting mothers.</p>
+                        <p>
+                            Our highly skilled surgeons are dedicated to providing compassionate, comprehensive, and advanced surgical care. We manage a wide array of conditions affecting the abdomen, digestive tract, soft tissues, and more. Our surgeons are experts in both traditional open procedures and minimally invasive techniques, always aiming for the safest and most effective path to restore your health and well-being.
+                        </p>
+                        <p>As an integral part of <b>Magagine Clinic</b>, we offer a seamless, collaborative experience. Our surgical team works closely with specialists from Gynaecology, Emergency Medicine, Dental, and Internal Medicine to ensure your treatment plan is tailored to your unique needs.
+                        </p>
                         <p>Subspecialty services supplied include general obstetrics and gynaecology, maternal-fetal medicine, 
 						, gynecologic oncology, and family planning.</p>
-                        <p>Our doctors are very meticulous when it comes to your gynaecological needs.
-						Do not hesitate to call and book an appointment with us anywhere, anytime, any day.</p>
-						   
+
+                        <p>
+                          <b>Our Surgical Approach: Your Safety and Comfort First</b>
+                          <ul>
+                              <li><b>Collaborative Care:</b> Your case is our collective priority. We regularly hold multidisciplinary meetings with other specialists to review complex cases and determine the best possible surgical plan for you.
+                              </li>
+                              <li><b>Minimally Invasive Focus:</b> We are committed to using laparoscopic and other advanced techniques to minimize your recovery time and discomfort.</li>
+                              <li><b>Enhanced Recovery After Surgery (ERAS) Protocols:</b> We utilize evidence-based pathways designed to help you heal faster, with better pain control and fewer complications after your operation.
+                            </li>
+                            <li><b>Patient-Centered Communication:</b> We believe in clear, honest communication. Your surgeon will take the time to explain your diagnosis, all treatment options, and what to expect before, during, and after surgery.</li>
+                          </ul>
+                        </p>
                     </div>
                     <!-- Blog Detail End -->
 					
@@ -144,7 +154,7 @@
 					
 					<!-- Image Start -->
 					<div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
-                        <img src="{{ asset('img/blog-2.jpg') }}" alt="" class="img-fluid rounded">
+                        <img src="{{ asset('img/service-8.jpg') }}" alt="" class="img-fluid rounded">
                     </div>
 					 <!-- Image End -->
 					 

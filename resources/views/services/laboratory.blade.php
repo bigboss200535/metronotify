@@ -71,12 +71,29 @@
                 <div class="col-lg-8">
                     <!-- Blog Detail Start -->
                     <div class="mb-5">
-                        <img class="img-fluid w-100 rounded mb-5" src="{{ asset('img/serv9-blog-3.jpg') }}" alt="">
+                        <img class="img-fluid w-100 rounded mb-5" src="{{ asset('img/service-9-1.jpg') }}" alt="">
                         <h1 class="mb-4">Our Laboratory Services</h1>
-                        <p>In the current era of evidence-based medicine, we provide the best solutions to you with the help of our state-of-the-art laboratory, 
-						manned by experienced and skilled laboratory scientists. </p>
-                        <p> Laboratory services at @include('includes.in_facility')  function 24/7 with an emphasis on
-						accuracy, precision, reproducibility, and prompt reporting.</p>
+                        <p>
+                            Our Laboratory is advanced diagnostic heart of our healthcare system. Here, our team of skilled pathologists, scientists, and technologists works behind the scenes with one clear goal: to provide accurate, timely, and clear results that empower you and your doctor to make informed decisions about your health.
+                        </p>
+                        <p>
+                            Every test we perform is a crucial piece of your health puzzle. We understand that behind every sample is a person, and we are committed to handling your care with the utmost precision, confidentiality, and respect.
+                        </p>
+                        <p>
+                            <b>Our Laboratory Advantage</b>
+                        </p>
+                        <p>
+                           <b> Expert Leadership: </b>Our laboratory is directed by board-certified Pathologists—medical doctors who are specialists in diagnosing disease. They oversee all complex testing and consult directly with your physician.
+                        </p>
+                        <p>
+                            <b>Accuracy & Speed:</b>We utilize the most advanced, automated testing equipment available. This means faster, more reliable results for you, often available to your doctor within hours, not days.
+                        </p>
+                        <p>
+                            <b>Seamless Integration with Your Care:</b> Your test results are seamlessly integrated into your secure electronic health record (EHR). This allows our care team to view your results quickly and coordinate your treatment plan efficiently.
+                        </p>
+                        <p>
+                           <b> Commitment to Quality:</b> We maintain the highest levels of accreditation, following rigorous quality control and assurance protocols every day. Your diagnosis is our priority.
+                        </p>
                     </div>
                     <!-- Blog Detail End -->
 					
@@ -85,13 +102,13 @@
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
                             <h3 class="mb-0">Leave a concern</h3>
                         </div>
-                        <form action="https://getform.io/f/cfe6b443-94b5-4d67-9ea5-def1031edbb6" method="POST">
+                         <form action="#" method="POST">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
                                     <input type="text" class="form-control bg-white border-0" placeholder="Your Name" name="name" required style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-white border-0" placeholder="Contact" name="contact" required style="height: 55px;">
+                                    <input type="number" class="form-control bg-white border-0" placeholder="Telephone" name="contact" required style="height: 55px;">
                                 </div>
                                 <div class="col-12">
                                     <input type="email" class="form-control bg-white border-0" placeholder="Email" name="email" required style="height: 55px;">
@@ -127,8 +144,8 @@
                             <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/obstetrics"><i class="bi bi-arrow-right me-2"></i>Obstetrics/Gynaecology</a>
 							<a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/dental"><i class="bi bi-arrow-right me-2"></i>Dental Care</a>
                             <!-- <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="serv3.php"><i class="bi bi-arrow-right me-2"></i>Pediatrics</a> -->
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/eye"><i class="bi bi-arrow-right me-2"></i>Eye Care</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/surgery"><i class="bi bi-arrow-right me-2"></i>Surgery</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/services/eye') }}"><i class="bi bi-arrow-right me-2"></i>Eye Care</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/surgery"><i class="bi bi-arrow-right me-2"></i>General Surgery</a>
                             <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/pharmacy"><i class="bi bi-arrow-right me-2"></i>Pharmacy</a>
 							<a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/ultrasound"><i class="bi bi-arrow-right me-2"></i>Ultrasound Scan Services</a>
 							
@@ -137,7 +154,7 @@
 					
 					<!-- Image Start -->
                     <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
-                        <img src="{{ asset('img/serv9-blog-4.jpg') }}" alt="" class="img-fluid rounded">
+                        <img src="{{ asset('img/service-9-2.jpg') }}" alt="" class="img-fluid rounded">
                     </div>
                     <!-- Image End -->
 					
@@ -149,7 +166,7 @@
                         </div>
                         <div class="bg-light text-center" style="padding: 30px;">
                             <p></p>
-                            <a href="/appointments" class="btn metro-fill text-white py-2 px-4">24hours Service</a>
+                            <a href="{{ url('/appointments') }}" class="btn metro-fill text-white py-2 px-4">Book Appointment</a>
                         </div>
                     </div>
                     <!-- Plain Text End -->

@@ -1,4 +1,4 @@
-<a href="{{ url('/services/generalmedicine') }}" class="dropdown-item">General Medicine</a>
+<a href="{{ url('/services/general-medicine') }}" class="dropdown-item">General Medicine</a>
 <a href="{{ url('/services/obstetrics') }}" class="dropdown-item">Obstetrics/Gynaecology</a>
 <a href="{{ url('/services/dental') }}" class="dropdown-item">Dental Care</a>
 <a href="{{ url('/services/eye') }}" class="dropdown-item">Ophthalmology (Eye)</a>

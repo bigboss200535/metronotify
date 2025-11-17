@@ -63,11 +63,11 @@
                                 <h3 class="text-light mb-0">Main Services</h3>
                             </div>
                             <div class="link-animated d-flex flex-column justify-content-start">
-                                <a class="text-light mb-2" href="{{ url('/services/generalmedicine') }}"><i class="bi bi-arrow-right light-color me-2"></i>General/Family Medicine</a>
+                                <a class="text-light mb-2" href="{{ url('/services/general-medicine') }}"><i class="bi bi-arrow-right light-color me-2"></i>General/Family Medicine</a>
                                 <a class="text-light mb-2" href="{{ url('/services/obstetrics') }}"><i class="bi bi-arrow-right light-color  me-2"></i>Obstetrics and Gynaecology</a>
                                 <a class="text-light mb-2" href="{{ url('/services/laboratory') }}"><i class="bi bi-arrow-right light-color  me-2"></i>Laboratory Service</a>
                                 <a class="text-light mb-2" href="{{ url('/services/eye') }}"><i class="bi bi-arrow-right light-color  me-2"></i>Eye Care</a>
-                                <a class="text-light mb-2" href="{{ url('/services/ent') }}"><i class="bi bi-arrow-right light-color me-2"></i>ENT Care</a>
+                                <a class="text-light mb-2" href="{{ url('/services/dental') }}"><i class="bi bi-arrow-right light-color me-2"></i>Dental Care</a>
                                 <a class="text-light" href="{{ url('/services/surgery') }}"><i class="bi bi-arrow-right light-color  me-2"></i>Surgery</a>
                             </div>
                         </div>

@@ -91,7 +91,7 @@
                                     <input type="text" class="form-control bg-white border-0" placeholder="Your Name" name="name" required style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-white border-0" placeholder="Contact" name="contact" required style="height: 55px;">
+                                    <input type="number" class="form-control bg-white border-0" placeholder="Telephone" name="contact" required style="height: 55px;">
                                 </div>
                                 <div class="col-12">
                                     <input type="email" class="form-control bg-white border-0" placeholder="Email" name="email" required style="height: 55px;">

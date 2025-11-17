@@ -61,29 +61,45 @@
     <!-- Full Screen Search End -->
 
 
-    <!-- Blog Start -->
+    <!-- pharmacy Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-8">
                     <!-- Blog Detail Start -->
                     <div class="mb-5">
-                        <img class="img-fluid w-100 rounded mb-5" src="{{ asset('img/blog-1.jpg') }}" alt="">
+                        <img class="img-fluid w-100 rounded mb-5" src="{{ asset('img/service-6-1.jpg') }}" alt="">
                         <h1 class="mb-4">General Pharmacy</h1>
-                        <p>Today’s woman is busier than ever, balancing careers, families, and a myriad of other responsibilities.
-						We at @include('includes.in_facility') understand and are committed to bringing smiles to your faces. Our consultants are passionate to
-						supply solutions to preconception, antenatal, and postnatal concerns.</p>
-                        <p>We offer labour and delivery services. We also offer programmes, classes, and support for our expecting mothers.</p>
-                        <p>Subspecialty services supplied include general obstetrics and gynaecology, maternal-fetal medicine, 
-						, gynecologic oncology, and family planning.</p>
-                        <p>Our doctors are very meticulous when it comes to your gynaecological needs.
-						Do not hesitate to call and book an appointment with us anywhere, anytime, any day.</p>
-						   
+                        <p>
+                            We are more than just a place to pick up prescriptions; we are an integral part of your healthcare team. Our dedicated team of clinical pharmacists and certified technicians works directly with your doctors to ensure your medications are safe, effective, and tailored to your unique needs.
+                        </p>
+                        <p>
+                            From your hospital bedside to your follow-up care, we are here to guide you every step of the way on your journey to wellness.
+                        </p>
+                        <p>
+                            <b>Our Pharmacy Services</b>
+                        </p>
+                        <p>We provide a full spectrum of pharmacy care, supporting both our inpatients and the broader community.</p>
+                        <p>
+                            <ul>
+                                <li><b>For Inpatients:</b> Integrated Medication Management</li>
+                                <li><b>For Outpatients</b> Accessible and Expert Care</li>
+                            </ul>
+                        </p>
+                        <p><b>Our Pharmacy Advantage: Why We are Different</b></p>
+                        <p>
+                           <ul>
+                               <li><b>Seamless Care Coordination:</b>We coordinate with your doctors to prevent errors and ensure your inpatient and outpatient prescriptions are perfectly aligned.</li>
+                               <li><b>Expertise in Complex Care:</b> Our pharmacists specialize in managing medications for complex hospital-treated conditions, giving you confidence after you go home.</li>
+                               <li><b>Your Medication Experts: </b>Pharmacists are the most accessible healthcare professionals. We are here to answer your questions clearly and without judgment, helping you get the most from your medicines.</li>
+                               <li><b>Affordability & Access:</b> We accept most major insurance plans and offer guidance on cost-saving alternatives, including generic medications. </li>
+                           </ul>
+                        </p>
                     </div>
                     <!-- Blog Detail End -->
 					
                     <!-- Comment Form Start -->
-                    <div class="bg-light rounded p-5">
+                   <div class="bg-light rounded p-5">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
                             <h3 class="mb-0">Leave a concern</h3>
                         </div>
@@ -93,7 +109,7 @@
                                     <input type="text" class="form-control bg-white border-0" placeholder="Your Name" name="name" required style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-white border-0" placeholder="Contact" name="contact" required style="height: 55px;">
+                                    <input type="number" class="form-control bg-white border-0" placeholder="Telephone" name="contact" required style="height: 55px;">
                                 </div>
                                 <div class="col-12">
                                     <input type="email" class="form-control bg-white border-0" placeholder="Email" name="email" required style="height: 55px;">
@@ -143,7 +159,7 @@
 					
 					<!-- Image Start -->
 					<div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
-                        <img src="{{ asset('img/blog-2.jpg') }}" alt="" class="img-fluid rounded">
+                        <img src="{{ asset('img/service-6.jpg') }}" alt="" class="img-fluid rounded">
                     </div>
 					 <!-- Image End -->
 					
@@ -159,7 +175,7 @@
                         </div>
                         <div class="bg-light text-center" style="padding: 30px;">
                             <!-- <p><strong>Consultation and Assessment</strong></p> -->
-                            <a href="" class="btn metro-fill text-white py-2 px-4">24/7 Service</a>
+                            <a href="{{ url('/appointments') }}" class="btn metro-fill text-white py-2 px-4">Book Appointment</a>
 							<!-- <a href="" class="btn metro-fill text-white py-2 px-4">8am-8pm</a> -->
                         </div>
                     </div>

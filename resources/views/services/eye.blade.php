@@ -67,7 +67,7 @@
                 <div class="col-lg-8">
                     <!-- Blog Detail Start -->
                     <div class="mb-5">
-                        <img class="img-fluid w-100 rounded mb-5" src="{{ asset('img/blog-1.jpg') }}" alt="">
+                        <img class="img-fluid w-100 rounded mb-5" src="{{ asset('img/service-3-1.jpg') }}" alt="">
                         <h1 class="mb-4">Eye Care</h1>
                         <p>
                         Our Eye Department provide world-class medical and surgical eye care for the entire family. We offer a unique, integrated approach. Our board-certified ophthalmologists and optometrists work to protect not just your sight, but your total health.
@@ -104,7 +104,7 @@
                                     <input type="text" class="form-control bg-white border-0" placeholder="Your Name" name="name" required style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-white border-0" placeholder="Contact" name="contact" required style="height: 55px;">
+                                    <input type="number" class="form-control bg-white border-0" placeholder="Telephone" name="contact" required style="height: 55px;">
                                 </div>
                                 <div class="col-12">
                                     <input type="email" class="form-control bg-white border-0" placeholder="Email" name="email" required style="height: 55px;">
@@ -152,7 +152,7 @@
 					
 					<!-- Image Start -->
 					<div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
-                        <img src="{{ asset('img/blog-2.jpg') }}" alt="" class="img-fluid rounded">
+                        <img src="{{ asset('img/service-3.jpg') }}" alt="" class="img-fluid rounded">
                     </div>
 					 <!-- Image End -->
 					 
