@@ -31,5 +31,22 @@ class UserSeeder extends Seeder
             'status' => 'Active',
             'archived' => 'No',
         ]);
+
+        $userdata = User::create([
+            'user_id' => 'c3d362bf-56df-4337-be34-7062ffae8bd9',
+            'email' => 'mmagazineclinic@yahoo.com',
+            'password' => Hash::make('password'),
+            'firstname' => 'Magazine',
+            'othername' => 'Clinic',
+            'telephone' => '',
+            'gender' => 'Male',
+            'user_role' => 'Administrator', //Patient, Administrator, User, 
+            'is_admin' => true,
+            'added_id' => 'b2c362bf-56df-4337-be34-7062ffae8bd5',
+            'is_blocked' => false,
+            'added_date' => now(),
+            'status' => 'Active',
+            'archived' => 'No',
+        ]);
     }
 }

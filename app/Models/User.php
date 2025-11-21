@@ -60,28 +60,26 @@ class User extends Authenticatable
     // check if user is blocked
     public function isBlocked(): bool
     {
-        return $this->is_blocked;
+        return (bool) $this->is_blocked;
     }
 
 
     // block the user 
     public function block(): void
     {
-        $this->update([
-            'is_blocked' => true,
-            'blocked_at' => now(),
-            'blocked_by' => '',
-        ]);
+        $this->is_blocked = true;
+        $this->blocked_at = now();
+        $this->blocked_by = '';
+        $this->save();
     }
 
     // unblock the user
     public function unblock(): void
     {
-       $this->update([
-            'is_blocked' => false,
-            'blocked_at' => null,
-            'blocked_by' => '',
-        ]);
+       $this->is_blocked = false;
+       $this->blocked_at = null;
+       $this->blocked_by = '';
+       $this->save();
     }
 
 }

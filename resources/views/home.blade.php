@@ -274,7 +274,7 @@
                             <small class="text-sentencecase" style="font-size: 17px;">Why We are here</small>
                         </div>
                         <div class="p-5 pt-0">
-                            <p class="m-0"><strong></strong>Our purpose is to make standardized medical services accessible to all. We’re dedicated to ensuring that everyone receives quality healthcare they can trust, regardless of location or background. </p>
+                            <p class="m-0">Our purpose is to make standardized medical services accessible to all regardless of location or background. </p>
                         </div>
                     </div>
                 </div>
@@ -286,8 +286,8 @@
                         </div>
                         <div class="p-5 pt-0">
                             <p class="m-0">
-                               Our mission is to transform the lives of patients by surpassing expectations in healthcare. </p>
-                               <p>We strive to inspire hope and build a healthier, brighter future for Ghana.</p>
+                               Our mission is to improve the health of our client through the efficient delivery of excellent health care</p>
+                               <!-- <p>We strive to inspire hope and build a healthier, brighter future for Ghana.</p> -->
                               <p align="center"> <a href="{{ url('/contact') }}" class="btn text-white light-color-fill py-md-3 px-md-5 me-3 animated slideInLeft">Get in touch</a></p>
                         </div>
 
@@ -301,8 +301,8 @@
                         </div>
                         <div class="p-5 pt-0">
                             <p class="m-0">
-                                Our vision is to be Ghana’s most trusted name in healthcare. 
-                                We aim to set the standard for excellence by delivering compassionate, reliable, and innovative medical services.
+                               Our Vision is to be the medical facility of choice by prioritizing patient's health care needs.
+                              
                             </p>
                         </div>
                     </div>
@@ -327,13 +327,13 @@
                     <div class="bg-light rounded">
                         <div class="border-bottom py-4 px-5 mb-4">
                             <h4 class="light-color mb-1" style="color: black;">OBSTETRICS & GYNAE</h4>
-                            <small class="text-uppercase text-dark">MONDAYS & FRIDAYS</small>
+                            <small class="text-uppercase text-dark">MONDAYS, WEDNESDAYS & FRIDAYS</small>
                         </div>
                         <div class="p-5 pt-0">
                             <h1 class="display-5 mb-3">
                                 <small class="align-top" style="font-size: 22px; line-height: 45px;"></small>8:00<small
                                     class="align-bottom" style="font-size: 16px; line-height: 40px;">AM</small> -
-                                    <small class="align-top" style="font-size: 22px; line-height: 45px;"></small>2:00<small
+                                    <small class="align-top" style="font-size: 22px; line-height: 45px;"></small>5:00<small
                                     class="align-bottom" style="font-size: 16px; line-height: 40px;">PM</small>
                             </h1>
                         </div>
@@ -343,13 +343,23 @@
                     <div class="bg-white rounded shadow position-relative" style="z-index: 1;">
                         <div class="border-bottom py-4 px-5 mb-4">
                             <h4 class="light-color mb-1" style="color: black;"> DENTAL CLINIC</h4>
-                            <small class="text-uppercase text-dark">WEDNESDAYS</small>
+                            <small class="text-uppercase text-dark">MONDAYS TO FRIDAY</small>
                         </div>
                         <div class="p-5 pt-0">
                             <h1 class="display-5 mb-3">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;"></small>3:30<small
-                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">PM</small> -
-                                    <small class="align-top" style="font-size: 22px; line-height: 45px;"></small>6:00<small
+                                <small class="align-top" style="font-size: 22px; line-height: 45px;"></small>8:00<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">AM</small> -
+                                    <small class="align-top" style="font-size: 22px; line-height: 45px;"></small>4:00<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">PM</small>
+                            </h1>
+                            <hr>
+                            <!-- <div class="border-bottom py-4 px-5 mb-4"> -->
+                            <small class="text-uppercase text-dark">SATURDAYS</small>
+                            <!-- </div> -->
+                            <h1 class="display-5 mb-3">
+                                <small class="align-top" style="font-size: 22px; line-height: 45px;"></small>10:00<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">AM</small> -
+                                    <small class="align-top" style="font-size: 22px; line-height: 45px;"></small>1:00<small
                                     class="align-bottom" style="font-size: 16px; line-height: 40px;">PM</small>
                             </h1>
                         </div>
@@ -359,13 +369,22 @@
                     <div class="bg-light rounded">
                         <div class="border-bottom py-4 px-5 mb-4">
                             <h4 class="light-color mb-1" >EYE CLINIC</h4>
-                            <small class="text-uppercase text-dark">WEDNESDAYS</small>
+                            <small class="text-uppercase text-dark">MONDAYS TO FRIDAYS</small>
                         </div>
                         <div class="p-5 pt-0">
                             <h1 class="display-5 mb-3">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;"></small>3:00<small
-                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">pM</small> -
-                                    <small class="align-top" style="font-size: 22px; line-height: 45px;"></small>6:00<small
+                                <small class="align-top" style="font-size: 22px; line-height: 45px;"></small>8:00<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">AM</small> -
+                                    <small class="align-top" style="font-size: 22px; line-height: 45px;"></small>4:00<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">PM</small>
+                            </h1>
+                            <hr>
+                            <!-- <div class="border-bottom py-4 px-5 mb-4"> -->
+                            <small class="text-uppercase text-dark">SATURDAYS</small>
+                            <h1 class="display-5 mb-3">
+                                <small class="align-top" style="font-size: 22px; line-height: 45px;"></small>9:00<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">AM</small> -
+                                    <small class="align-top" style="font-size: 22px; line-height: 45px;"></small>1:00<small
                                     class="align-bottom" style="font-size: 16px; line-height: 40px;">PM</small>
                             </h1>
                         </div>

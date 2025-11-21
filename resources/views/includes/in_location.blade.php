@@ -1,1 +1,1 @@
-Pine Avenue, Opposite Shell Fuel Station, Off-Bekwai Road
+Pine Avenue, Bekwai Roundabout Opposite Shell Fuel Station

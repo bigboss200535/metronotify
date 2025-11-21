@@ -178,7 +178,7 @@
                 <div class="col-lg-8">
                     <!-- Blog Detail Start -->
                     <div class="mb-5">
-                        <img class="img-fluid w-100 rounded mb-5" src="{{ asset('img/image-2.jpg') }}" alt="Dr. E. K. Ahenkorah">
+                        <img class="img-fluid w-100 rounded mb-5" src="{{ asset('img/image-5.png') }}" alt="Dr. E. K. Ahenkorah">
                         <!-- <h1 class="mb-4 light-color"><strong>Dr. Edward Kwarko Ahenkorah</strong></h1> -->
                         <p>Dr. E. K. Ahenkorah is the esteemed founder and leading General Practitioner of Magazine Clinic, bringing a profound depth of experience and a compassionate vision to our practice. His dedication to community health was the driving force behind establishing a clinic that prioritizes accessible, patient-centered care for all. As a hands-on practitioner, he is deeply committed to a holistic approach, ensuring each patient receives personalized and thorough medical attention. Under his steadfast leadership, Magazine Clinic has grown into a trusted healthcare institution, renowned for its reliability and clinical excellence. 
                         </p>
@@ -203,7 +203,7 @@
                     <!-- Image End -->
                      <!-- Image Start -->
                     <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
-                        <img src="{{ asset('img/image-4.jpg') }}" alt="Magazine Clinic Owner" class="img-fluid rounded">
+                        <img src="{{ asset('img/image-5.png') }}" alt="Magazine Clinic Owner" class="img-fluid rounded">
                     </div>
                     <!-- Image End -->
                 </div>

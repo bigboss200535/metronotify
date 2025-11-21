@@ -16,7 +16,7 @@
                             <h4 class="mb-3"></h4>
                             <p>Our department has experienced personnel in general medicine. 
                             We provide the best medical response to your condition. </p>
-                            <a class="text-uppercase metro-main-text gold-text" href="{{ url('/services/generalmedicine') }}">Read More <i class="bi bi-arrow-right"></i></a>
+                            <a class="text-uppercase metro-main-text gold-text" href="{{ url('/services/general-medicine') }}">Read More <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                     <div class="blog-item bg-light rounded overflow-hidden">
                         <div class="blog-img position-relative overflow-hidden">
                             <img class="img-fluid" src="{{ asset('img/service-8.jpg') }}" alt="">
-                            <a class="position-absolute top-0 start-0 light-color-fill text-white rounded-end mt-5 py-2 px-4" href="/{{ url('/services/surgery') }}">General Surgery</a>
+                            <a class="position-absolute top-0 start-0 light-color-fill text-white rounded-end mt-5 py-2 px-4" href="{{ url('/services/surgery') }}">General Surgery</a>
                         </div>
                         <div class="p-4">
                             <div class="d-flex mb-3">

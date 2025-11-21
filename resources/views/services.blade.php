@@ -53,7 +53,6 @@
         </div>
     </div>
     <!-- Navbar End -->
-
     <!-- Full Screen Search Start -->
     @include('includes.in_search') 
     <!-- Full Screen Search End -->

@@ -23,7 +23,8 @@ Route::middleware('web')->group(function () {
     Route::view('/', 'home')->name('home');
     Route::view('/home', 'home');
     Route::view('/homepage', 'home');
-    
+    Route::view('/index', 'home')->name('home');
+
     // Main pages
     Route::view('/about', 'about')->name('about');
     Route::view('/contact', 'contact')->name('contact');
@@ -63,6 +64,10 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::prefix('users')->group(function () {
          // list users
         Route::get('/list', [UserController::class, 'index'])->name('users.index');
+        // edit/update user
+        Route::patch('/{user_id}', [UserController::class, 'update'])->name('users.update');
+        // delete (archive) user
+        Route::delete('/{user_id}', [UserController::class, 'destroy'])->name('users.destroy');
         //block and unblock user
         Route::get('/{user_id}/block', [UserController::class, 'block'])->name('users.block');
         Route::get('/{user_id}/unblock', [UserController::class, 'unblock'])->name('users.unblock');
